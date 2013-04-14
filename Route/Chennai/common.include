@@ -48,11 +48,16 @@ With Structure
 .Rail(51) Chennai\dl_straight.b3d,
 
 .Ground(1) Chennai\ground1.csv,
-
+.dikel(1) Chennai\ballast_dike_both.csv,
+.wallR(1) Chennai\tunnel_approach_wall_right_1.csv,
+.CrackL(0) Chennai\BallastL.csv,
+.CrackR(0) Chennai\BallastR.csv,
 .Freeobj(1) Chennai\stop_500m.csv,
 .Freeobj(2) Chennai\stop_here.csv,
 .freeobj(31) Chennai\bufferstop.x,
 .freeobj(40) Chennai\signal_pole.csv,
+.freeobj(60) Chennai\platform_1.csv,
+.freeobj(61) platform ramp_up_right.csv,
 
 Texture.Background(0) Chennai\background_1.bmp,
 
