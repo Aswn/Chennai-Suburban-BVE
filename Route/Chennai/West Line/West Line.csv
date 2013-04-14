@@ -3,9 +3,9 @@ Route.DeveloperID Aswn,
 
 Route.Gauge 1435,
 Route.Signal(2) 60,
-Route.Signal(3) 100,
+Route.Signal(3) 120,
 Route.change 1,
-Route.runinterval 200,
+Route.runinterval 300,
 
 ; train
 ; -----
@@ -32,32 +32,32 @@ Train.Run(20) 3,
 
 With Structure
 
-.Rail(1) DLTUTORIAL_1\straight.b3d,
-.Rail(2) DLTUTORIAL_1\250_l.b3d,
-.Rail(3) DLTUTORIAL_1\500_l.b3d,
-.Rail(4) DLTUTORIAL_1\750_l.b3d,
-.Rail(5) DLTUTORIAL_1\1000_l.b3d,
-.Rail(6) DLTUTORIAL_1\1250_l.b3d,
-.Rail(7) DLTUTORIAL_1\1500_l.b3d,
-.Rail(8) DLTUTORIAL_1\2000_l.b3d,
-.Rail(9) DLTUTORIAL_1\250_r.b3d,
-.Rail(10) DLTUTORIAL_1\500_r.b3d,
-.Rail(11) DLTUTORIAL_1\750_r.b3d,
-.Rail(12) DLTUTORIAL_1\1000_r.b3d,
-.Rail(13) DLTUTORIAL_1\1250_r.b3d,
-.Rail(14) DLTUTORIAL_1\1500_r.b3d,
-.Rail(15) DLTUTORIAL_1\2000_r.b3d,
-.Rail(20) DLTUTORIAL_1\straight.b3d,;standard straight track under bridge,
-.Rail(51) DLTUTORIAL_1\dl_straight.b3d,
+.Rail(1) Chennai\straight.b3d,
+.Rail(2) Chennai\250_l.b3d,
+.Rail(3) Chennai\500_l.b3d,
+.Rail(4) Chennai\750_l.b3d,
+.Rail(5) Chennai\1000_l.b3d,
+.Rail(6) Chennai\1250_l.b3d,
+.Rail(7) Chennai\1500_l.b3d,
+.Rail(8) Chennai\2000_l.b3d,
+.Rail(9) Chennai\250_r.b3d,
+.Rail(10) Chennai\500_r.b3d,
+.Rail(11) Chennai\750_r.b3d,
+.Rail(12) Chennai\1000_r.b3d,
+.Rail(13) Chennai\1250_r.b3d,
+.Rail(14) Chennai\1500_r.b3d,
+.Rail(15) Chennai\2000_r.b3d,
+.Rail(20) Chennai\straight.b3d,;standard straight track under bridge,
+.Rail(51) Chennai\dl_straight.b3d,
 
-.Ground(1) DLTUTORIAL_1\ground1.csv,
+.Ground(1) Chennai\ground1.csv,
 
-.Freeobj(1) DLTUTORIAL_1\stop_500m.csv,
-.Freeobj(2) DLTUTORIAL_1\stop_here.csv,
-.freeobj(31) DLTUTORIAL_2\bufferstop.x,
-.freeobj(40) DLTUTORIAL_2\signal_pole.csv,
+.Freeobj(1) Chennai\stop_500m.csv,
+.Freeobj(2) Chennai\stop_here.csv,
+.freeobj(31) Chennai\bufferstop.x,
+.freeobj(40) Chennai\signal_pole.csv,
 
-Texture.Background(0) DLTUTORIAL_1\background_1.bmp,
+Texture.Background(0) Chennai\background_1.bmp,
 
 Signal(1).Load brsigs\signal2g; brsigs\glow2g
 Signal(2).Load brsigs\signal2y; brsigs\glow2y
@@ -76,7 +76,6 @@ Signal(13).Load brsigs\signal2gy; brsigs\glow2gy
 With Track,
 0,.Ground 1,.back 0,.railtype 0;1,.sta chennai; 09.2720;09.2805;1;1;1;;;7;10;;0,
 .railstart 1;3.5;0;1,.railstart 2;3.5;0;1,.railstart 3;3.5;0;1,
-
 25,.stop 0,
 71,.beacon 44003;0;1;0,
 75,.sigf 3;1;-2.75;4.6,.section 0;2;4,.freeobj 0;40;-0.5;-0.2,
