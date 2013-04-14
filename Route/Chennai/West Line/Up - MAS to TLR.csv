@@ -1,0 +1,21 @@
+; route
+; -----
+With Route
+.Change -1
+.Comment Chennai Central → Tiruvallur Up to 9 cars
+.Timetable Local train
+.Image ..\map.png
+
+; train
+; -----
+With Train
+.Folder BR_Class_323
+
+; common structures and configurations
+; ------------------------------------
+$include(..\common.include)
+
+
+With Track
+
+$Include(..\.include)

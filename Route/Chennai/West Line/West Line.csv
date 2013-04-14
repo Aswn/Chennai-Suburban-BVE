@@ -7,7 +7,7 @@ Route.runinterval 300,
 ; train
 ; -----
 With Train
-.Folder Chashinai Railway\5000 Series\4 cars
+.Folder BR_Class_323
 
 ; common structures and configurations
 ; ------------------------------------
