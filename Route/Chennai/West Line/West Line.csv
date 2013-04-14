@@ -1,9 +1,6 @@
 Route.Comment Chennai Suburban West Line,
 Route.DeveloperID Aswn,
 
-Route.Gauge 1435,
-Route.Signal(2) 60,
-Route.Signal(3) 120,
 Route.change 1,
 Route.runinterval 300,
 
@@ -12,66 +9,9 @@ Route.runinterval 300,
 With Train
 .Folder Chashinai Railway\5000 Series\4 cars
 
-Train.Run(0) 2,
-Train.Run(1) 2,
-Train.Run(2) 2,
-Train.Run(3) 2,
-Train.Run(4) 2,
-Train.Run(5) 2,
-Train.Run(6) 2,
-Train.Run(7) 2,
-Train.Run(8) 2,
-Train.Run(9) 2,
-Train.Run(10) 2,
-Train.Run(11) 2,
-Train.Run(12) 2,
-Train.Run(13) 2,
-Train.Run(14) 2,
-Train.Run(15) 2,
-Train.Run(20) 3,
-
-With Structure
-
-.Rail(1) Chennai\straight.b3d,
-.Rail(2) Chennai\250_l.b3d,
-.Rail(3) Chennai\500_l.b3d,
-.Rail(4) Chennai\750_l.b3d,
-.Rail(5) Chennai\1000_l.b3d,
-.Rail(6) Chennai\1250_l.b3d,
-.Rail(7) Chennai\1500_l.b3d,
-.Rail(8) Chennai\2000_l.b3d,
-.Rail(9) Chennai\250_r.b3d,
-.Rail(10) Chennai\500_r.b3d,
-.Rail(11) Chennai\750_r.b3d,
-.Rail(12) Chennai\1000_r.b3d,
-.Rail(13) Chennai\1250_r.b3d,
-.Rail(14) Chennai\1500_r.b3d,
-.Rail(15) Chennai\2000_r.b3d,
-.Rail(20) Chennai\straight.b3d,;standard straight track under bridge,
-.Rail(51) Chennai\dl_straight.b3d,
-
-.Ground(1) Chennai\ground1.csv,
-
-.Freeobj(1) Chennai\stop_500m.csv,
-.Freeobj(2) Chennai\stop_here.csv,
-.freeobj(31) Chennai\bufferstop.x,
-.freeobj(40) Chennai\signal_pole.csv,
-
-Texture.Background(0) Chennai\background_1.bmp,
-
-Signal(1).Load brsigs\signal2g; brsigs\glow2g
-Signal(2).Load brsigs\signal2y; brsigs\glow2y
-Signal(3).Load brsigs\signal3; brsigs\glow3
-Signal(4).Load brsigs\signal4yg; brsigs\glow4yg
-Signal(5).Load brsigs\repeat; brsigs\glowrepeat
-Signal(6).Load brsigs\signal3featherl; brsigs\glow3
-Signal(7).Load brsigs\signal3featherr; brsigs\glow3
-Signal(8).Load brsigs\signal4ygfeatherl; brsigs\glow4yg
-Signal(9).Load brsigs\signal4ygfeatherr; brsigs\glow4yg
-Signal(10).Load brsigs\signal2callon; brsigs\glow2g
-Signal(11).Load brsigs\signal3callon; brsigs\glow3
-Signal(12).Load brsigs\signal4callon; brsigs\glow4yg
-Signal(13).Load brsigs\signal2gy; brsigs\glow2gy
+; common structures and configurations
+; ------------------------------------
+$include(..\common.include)
 
 With Track,
 0,.Ground 1,.back 0,.railtype 0;1,.sta chennai; 09.2720;09.2805;1;1;1;;;7;10;;0,
