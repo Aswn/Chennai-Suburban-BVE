@@ -1,0 +1,16 @@
+﻿CreateMeshBuilder
+AddVertex,-0.25,2.5,-0.01
+AddVertex,0.25,2.5,-0.01
+AddVertex,0.25,2.0,-0.01
+AddVertex,-0.25,2.0,-0.01
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,Limit_40.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetColor,0,0,0
+SetEmissiveColor,45,45,45
+
+TranslateAll,0,0,-0.15

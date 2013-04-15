@@ -29,7 +29,7 @@ With Train
 .Run(20) 3,
 
 With Structure
-.Rail(1) Chennai\straight.b3d,
+.Rail(1) Chennai\Rail\Rail.csv,
 .Rail(2) Chennai\250_l.b3d,
 .Rail(3) Chennai\500_l.b3d,
 .Rail(4) Chennai\750_l.b3d,
@@ -44,7 +44,7 @@ With Structure
 .Rail(13) Chennai\1250_r.b3d,
 .Rail(14) Chennai\1500_r.b3d,
 .Rail(15) Chennai\2000_r.b3d,
-.Rail(20) Chennai\straight.b3d,;standard straight track under bridge,
+.Rail(20) Chennai\straight.b3d,
 .Rail(51) Chennai\dl_straight.b3d,
 
 .Ground(1) Chennai\ground1.csv,
@@ -61,16 +61,16 @@ With Structure
 
 Texture.Background(0) Chennai\background_1.bmp,
 
-Signal(1).Load brsigs\signal2g; brsigs\glow2g
-Signal(2).Load brsigs\signal2y; brsigs\glow2y
-Signal(3).Load brsigs\signal3; brsigs\glow3
-Signal(4).Load brsigs\signal4yg; brsigs\glow4yg
-Signal(5).Load brsigs\repeat; brsigs\glowrepeat
-Signal(6).Load brsigs\signal3featherl; brsigs\glow3
-Signal(7).Load brsigs\signal3featherr; brsigs\glow3
-Signal(8).Load brsigs\signal4ygfeatherl; brsigs\glow4yg
-Signal(9).Load brsigs\signal4ygfeatherr; brsigs\glow4yg
-Signal(10).Load brsigs\signal2callon; brsigs\glow2g
-Signal(11).Load brsigs\signal3callon; brsigs\glow3
-Signal(12).Load brsigs\signal4callon; brsigs\glow4yg
-Signal(13).Load brsigs\signal2gy; brsigs\glow2gy
+Signal(1).Load Chennai\brsigs\signal2g; brsigs\glow2g
+Signal(2).Load Chennai\brsigs\signal2y; brsigs\glow2y
+Signal(3).Load Chennai\brsigs\signal3; brsigs\glow3
+Signal(4).Load Chennai\brsigs\signal4yg; brsigs\glow4yg
+Signal(5).Load Chennai\brsigs\repeat; brsigs\glowrepeat
+Signal(6).Load Chennai\brsigs\signal3featherl; brsigs\glow3
+Signal(7).Load Chennai\brsigs\signal3featherr; brsigs\glow3
+Signal(8).Load Chennai\brsigs\signal4ygfeatherl; brsigs\glow4yg
+Signal(9).Load Chennai\brsigs\signal4ygfeatherr; brsigs\glow4yg
+Signal(10).Load Chennai\brsigs\signal2callon; brsigs\glow2g
+Signal(11).Load Chennai\brsigs\signal3callon; brsigs\glow3
+Signal(12).Load Chennai\brsigs\signal4callon; brsigs\glow4yg
+Signal(13).Load Chennai\brsigs\signal2gy; brsigs\glow2gy

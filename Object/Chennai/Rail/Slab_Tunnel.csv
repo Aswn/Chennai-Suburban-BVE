@@ -1,0 +1,14 @@
+﻿CreateMeshBuilder
+AddVertex,-2,-0.5,0
+AddVertex,-2,-0.5,25.5
+AddVertex,2,-0.5,25.5
+AddVertex,2,-0.5,0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,Slab.png
+SetTextureCoordinates,0,0,5
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,5
+SetColor,0,0,0
+SetEmissiveColor,60,60,60

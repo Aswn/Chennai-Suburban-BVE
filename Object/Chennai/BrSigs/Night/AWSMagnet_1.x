@@ -1,0 +1,1 @@
+../AWSMagnet_1.x

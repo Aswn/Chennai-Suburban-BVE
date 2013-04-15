@@ -1,0 +1,16 @@
+﻿CreateMeshBuilder
+AddVertex,-0.2,3,-0.5
+AddVertex,0.2,3,-0.5
+AddVertex,0.2,1.4,-0.5
+AddVertex,-0.2,1.4,-0.5
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,Station_Semi_Express.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetColor,0,0,0
+SetEmissiveColor,45,45,45
+
+TranslateAll,0,0,-0.15
