@@ -61,16 +61,16 @@ With Structure
 
 Texture.Background(0) Chennai\background_1.bmp,
 
-Signal(1).Load Chennai\brsigs\signal2g; brsigs\glow2g
-Signal(2).Load Chennai\brsigs\signal2y; brsigs\glow2y
-Signal(3).Load Chennai\brsigs\signal3; brsigs\glow3
-Signal(4).Load Chennai\brsigs\signal4yg; brsigs\glow4yg
-Signal(5).Load Chennai\brsigs\repeat; brsigs\glowrepeat
-Signal(6).Load Chennai\brsigs\signal3featherl; brsigs\glow3
-Signal(7).Load Chennai\brsigs\signal3featherr; brsigs\glow3
-Signal(8).Load Chennai\brsigs\signal4ygfeatherl; brsigs\glow4yg
-Signal(9).Load Chennai\brsigs\signal4ygfeatherr; brsigs\glow4yg
-Signal(10).Load Chennai\brsigs\signal2callon; brsigs\glow2g
-Signal(11).Load Chennai\brsigs\signal3callon; brsigs\glow3
-Signal(12).Load Chennai\brsigs\signal4callon; brsigs\glow4yg
+Signal(1).Load Chennai\brsigs\signal2g; Chennai\brsigs\glow2g
+Signal(2).Load Chennai\brsigs\signal2y; Chennai\brsigs\glow2y
+Signal(3).Load Chennai\brsigs\signal3; Chennai\brsigs\glow3
+Signal(4).Load Chennai\brsigs\signal4yg; Chennai\brsigs\glow4yg
+Signal(5).Load Chennai\brsigs\repeat; Chennai\brsigs\glowrepeat
+Signal(6).Load Chennai\brsigs\signal3featherl; Chennai\brsigs\glow3
+Signal(7).Load Chennai\brsigs\signal3featherr; Chennai\brsigs\glow3
+Signal(8).Load Chennai\brsigs\signal4ygfeatherl; Chennai\brsigs\glow4yg
+Signal(9).Load Chennai\brsigs\signal4ygfeatherr; Chennai\brsigs\glow4yg
+Signal(10).Load Chennai\brsigs\signal2callon; Chennai\brsigs\glow2g
+Signal(11).Load Chennai\brsigs\signal3callon; Chennai\brsigs\glow3
+Signal(12).Load Chennai\brsigs\signal4callon; Chennai\brsigs\glow4yg
 Signal(13).Load Chennai\brsigs\signal2gy; brsigs\glow2gy
