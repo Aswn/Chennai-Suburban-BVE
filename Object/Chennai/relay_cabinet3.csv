@@ -1,0 +1,158 @@
+
+;side,
+CreateMeshBuilder
+Addvertex, -3.3, 1.325, 0,
+Addvertex, -2.3, 1.325, 0,
+Addvertex, -2.3, -0.3, 0,
+Addvertex, -3.3, -0.3, 0,
+Addface2, 0,1,2,3,
+
+LoadTexture,relay_cab_front2.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+
+;front,
+CreateMeshBuilder
+Addvertex, -2.3, 1.325, 0,
+Addvertex, -2.3, 1.325, 0.5,
+Addvertex, -2.3, -0.3, 0.5,
+Addvertex, -2.3, -0.3, 0,
+Addface2, 0,1,2,3,
+
+LoadTexture,relay_cab_side.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+
+
+;side,
+CreateMeshBuilder
+Addvertex, -3.3, 1.325, 0.5,
+Addvertex, -2.3, 1.325, 0.5,
+Addvertex, -2.3, -0.3, 0.5,
+Addvertex, -3.3, -0.3, 0.5,
+Addface2, 0,1,2,3,
+
+LoadTexture,relay_cab_front.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+
+;back,
+CreateMeshBuilder
+Addvertex, -3.3, 1.325, 0.5,
+Addvertex, -3.3, 1.325, 0.0,
+Addvertex, -3.3, -0.3, 0.0,
+Addvertex, -3.3, -0.3, 0.5,
+Addface, 0,1,2,3,
+
+LoadTexture,relay_cab_side.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+
+;top,
+CreateMeshBuilder
+cube, 0.5, 0.02, 0.25,
+translate, -2.75, 1.325, 0.2,
+setcolor,130,130,130,
+
+;base,
+CreateMeshBuilder
+cube, 0.995, 0.18, 1.75,
+translate, -2.5, -.5, 0.25,
+setcolor,182,166,142,
+
+
+;railings,
+
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,0.9,
+Rotate,0,0,0,0,
+Translate,-3.50,0.0,-1.0,
+SetColor,150,160,170,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,0.9,
+Rotate,0,0,0,0,
+Translate,-2.0,0.0,-1.0,
+SetColor,150,160,170,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,0.9,
+Rotate,0,0,0,0,
+Translate,-2.10,0.0,1.0,
+SetColor,150,150,150,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,0.9,
+Rotate,0,0,0,0,
+Translate,-2.80,0.0,1.0,
+SetColor,150,150,150,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,0.9,
+Rotate,0,0,0,0,
+Translate,-3.50,0.0,1.0,
+SetColor,130,130,150,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,0.9,
+Rotate,0,0,0,0,
+Translate,-3.50,0.0,0.0,
+SetColor,120,120,130,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,2,
+Rotate,1,0,0,90,
+Translate,-3.50,0.0,0.0,
+SetColor,120,120,130,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,2,
+Rotate,1,0,0,90,
+Translate,-3.50,0.4,0.0,
+SetColor,160,160,170,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,0.9,
+Rotate,0,0,0,0,
+Translate,-2.0,0.0,1.0,
+SetColor,130,130,150,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,0.9,
+Rotate,0,0,0,0,
+Translate,-2.0,0.0,0.0,
+SetColor,120,120,130,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,2,
+Rotate,1,0,0,90,
+Translate,-2.0,0.0,0.0,
+SetColor,120,120,130,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,2,
+Rotate,1,0,0,90,
+Translate,-2.0,0.4,0.0,
+SetColor,160,160,170,
+
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,1.5,
+Rotate,0,0,1,90,
+Translate,-2.8,0.4,1.0,
+SetColor,160,160,170,
+
+createmeshbuilder
+Cylinder,6,0.025,0.025,1.5,
+Rotate,0,0,1,90,
+Translate,-2.8,0.0,1.0,
+SetColor,140,140,130,

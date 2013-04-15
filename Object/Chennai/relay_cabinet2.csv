@@ -1,0 +1,70 @@
+
+;side,
+CreateMeshBuilder
+Addvertex, -2.9, 1.325, 0,
+Addvertex, -2.3, 1.325, 0,
+Addvertex, -2.3, -0.3, 0,
+Addvertex, -2.9, -0.3, 0,
+Addface2, 0,1,2,3,
+
+LoadTexture,relay_cab_side_modified.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+
+;front,
+CreateMeshBuilder
+Addvertex, -2.3, 1.325, 0,
+Addvertex, -2.3, 1.325, 1.8,
+Addvertex, -2.3, -0.3, 1.8,
+Addvertex, -2.3, -0.3, 0,
+Addface2, 0,1,2,3,
+
+LoadTexture,relaycab1frnt.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+
+
+;side,
+CreateMeshBuilder
+Addvertex, -2.9, 1.325, 1.8,
+Addvertex, -2.3, 1.325, 1.8,
+Addvertex, -2.3, -0.3, 1.8,
+Addvertex, -2.9, -0.3, 1.8,
+Addface2, 0,1,2,3,
+
+LoadTexture,relay_cab_side.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+
+;back,
+CreateMeshBuilder
+Addvertex, -2.9, 1.325, 1.8,
+Addvertex, -2.9, 1.325, 0.0,
+Addvertex, -2.9, -0.3, 0.0,
+Addvertex, -2.9, -0.3, 1.8,
+Addface, 0,1,2,3,
+
+LoadTexture,relaycab1frnt.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+
+;top,
+CreateMeshBuilder
+cube, 0.305, 0.01, 0.9005,
+translate, -2.6, 1.323, 0.9,
+setcolor, 115,129,130
+
+
+;top,
+CreateMeshBuilder
+cube, 0.375, 0.08, 1.1,
+translate, -2.6, -.323, 0.9,
+setcolor, 139,139,127

@@ -1,0 +1,92 @@
+;pole,
+CreateMeshbuilder
+Cylinder, 6, 0.1, 0.1, 5.4,
+Translate, -2.2, 1.5, 0,
+loadtexture, pole.bmp
+Settexturecoordinates, 0,0,0
+Settexturecoordinates, 1,0,1
+Settexturecoordinates, 2,1,0
+Settexturecoordinates, 3,1,1
+Settexturecoordinates, 4,1,0
+Settexturecoordinates, 5,1,1
+Settexturecoordinates, 6,1,0
+Settexturecoordinates, 7,1,1
+Settexturecoordinates, 8,1,0
+Settexturecoordinates, 9,1,1
+Settexturecoordinates, 10,1,0
+Settexturecoordinates, 11,1,1
+
+Createmeshbuilder
+Cube, 0.3, 0.49, 0.07,
+Translate, -2.25, 4.25, -0.02,
+Setcolor, 70, 70, 80,
+
+
+
+
+;support,
+Createmeshbuilder
+Cube, 0.35, 0.02, 0.7,
+Translate, -2.2, 3.55, 0.35,
+Setcolor, 60, 60, 70,
+
+Createmeshbuilder
+cube, 0.02, 0.59, 0.02,
+Translate, -1.9, 4.14, 0.70,
+SetColor, 60, 60, 70,
+
+Createmeshbuilder
+cube, 0.02, 0.59, 0.02,
+Translate, -2.5, 4.14, 0.70,
+SetColor, 60, 60, 70,
+
+Createmeshbuilder
+cube, 0.02, 0.02, 0.58,
+Translate, -1.9, 4.70, 0.15,
+SetColor, 60, 60, 70,
+
+Createmeshbuilder
+cube, 0.02, 0.02, 0.58,
+Translate, -2.5, 4.70, 0.15,
+SetColor, 60, 60, 70,
+
+;ladder,
+Createmeshbuilder
+Addvertex,-2.3,3.8,0.35
+Addvertex,-1.9,3.8,0.35
+Addvertex,-1.9,-0.8,1
+Addvertex,-2.3,-0.8,1
+Addface2,0,1,2,3
+GenerateNormals
+LoadTexture,ladder2.bmp,
+SetTexturecoordinates,0,0,0
+SetTexturecoordinates,1,1,0
+SetTexturecoordinates,2,1,10
+SetTexturecoordinates,3,0,10
+SetDecalTransparentColor, 0, 0, 0
+
+;plate,
+Createmeshbuilder
+Addvertex,-2.4,2.1,-0.15
+Addvertex,-2.0,2.1,-0.15
+Addvertex,-2.0,1.7,-0.15
+Addvertex,-2.4,1.7,-0.15
+Addface2,0,1,2,3
+GenerateNormals
+LoadTexture,signal_plate.bmp,
+SetTexturecoordinates,0,0,0
+SetTexturecoordinates,1,1,0
+SetTexturecoordinates,2,1,1
+SetTexturecoordinates,3,0,1
+
+;base,
+CreateMeshbuilder
+Cylinder, 6, 0.1, 0.3, 0.5,
+Translate, -2.2, -0.3, 0,
+SetColor, 60, 60, 70,
+
+;top,
+CreateMeshbuilder
+Cylinder, 6, 0.15, 0.15, 0.32,
+Translate, -2.2, 3.62, -0.01,
+SetColor, 60, 60, 70,
