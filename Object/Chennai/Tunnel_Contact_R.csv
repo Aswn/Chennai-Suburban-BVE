@@ -1,0 +1,16 @@
+﻿CreateMeshBuilder
+AddVertex,-1.4,5.2,0.05
+AddVertex,-1.4,6.6,0.05
+AddVertex,0.05,6.6,0.05
+AddVertex,0.05,5.2,0.05
+AddFace,0,1,2,3
+AddFace,3,2,1,0
+LoadTexture,Tunnel_Contact.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetColor,0,0,0
+SetEmissiveColor,35,35,35
+
+ScaleAll,-1,1,1

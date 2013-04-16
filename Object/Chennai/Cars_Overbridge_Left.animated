@@ -1,0 +1,9 @@
+﻿[Object]
+States = Cars_Overbridge_Left.csv
+Position = 0, 0, 6
+TextureShiftXFunction = -0.2 * time
+
+[Object]
+States = Cars_Overbridge_Left.csv
+Position = 0, 0, 12
+TextureShiftXFunction = -0.3 * time

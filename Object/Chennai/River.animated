@@ -1,0 +1,10 @@
+﻿[include]
+river_ground.csv
+
+[object]
+states = river_toplayer.csv
+textureshiftxfunction = 0.0313 * time
+
+[object]
+states = river_bottomlayer.csv
+textureshiftxfunction = 0.0176 * time

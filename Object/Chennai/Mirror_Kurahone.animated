@@ -1,0 +1,7 @@
+﻿[Include]
+Mirror.csv
+
+[Object]
+States = Mirror_Kurahone.csv
+; TextureShiftXFunction = 0.5 - ArcTan[0.02 * cameraDistance] / 3.14159265358979
+TextureShiftXFunction = 0.25 + ArcTan[0.1 * (20 - cameraDistance)] / 6.28318530717958

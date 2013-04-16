@@ -1,0 +1,16 @@
+﻿CreateMeshBuilder
+AddVertex,-1,0,-0.01
+AddVertex,-1,1.1,-0.01
+AddVertex,1,1.1,-0.01
+AddVertex,1,0,-0.01
+AddFace2,3,2,1,0
+SetColor,192,192,192
+GenerateNormals
+LoadTexture,Railing_Tunnel.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,1
+SetDecalTransparentColor,0,0,255
+SetColor,0,0,0
+SetEmissiveColor,120,120,120

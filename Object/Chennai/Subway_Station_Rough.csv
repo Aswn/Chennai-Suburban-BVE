@@ -1,0 +1,15 @@
+﻿CreateMeshbuilder
+AddVertex,0,6,0
+AddVertex,0,6,26.5
+AddVertex,0,-0.5,26.5
+AddVertex,0,-0.5,0
+AddFace2,0,1,2,3
+SetColor,0,0,0
+SetEmissiveColor,120,120,120
+GenerateNormals
+LoadTexture,Subway_Station_Rough.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetTextureCoordinates,3,0,1

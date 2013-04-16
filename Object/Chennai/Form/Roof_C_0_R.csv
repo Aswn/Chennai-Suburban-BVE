@@ -1,0 +1,13 @@
+﻿CreateMeshBuilder
+AddVertex,7.2,4.7,0
+AddVertex,7.2,4.7,25.3
+AddVertex,2.7,4.7,25.3
+AddVertex,2.7,4.7,0
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,Roof.png
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,1,4
+SetTextureCoordinates,2,0,4
+SetTextureCoordinates,3,0,0
+SetColor,192,192,192

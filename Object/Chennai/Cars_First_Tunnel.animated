@@ -1,0 +1,9 @@
+﻿[Object]
+Position = 1.5, 0, 0
+States = Cars_Tunnel.csv
+TextureShiftXFunction = -0.4681 * time
+
+[Object]
+Position = -1.5, 0, 0
+States = Cars_Tunnel.csv
+TextureShiftXFunction = -0.3264 * time

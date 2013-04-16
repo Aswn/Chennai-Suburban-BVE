@@ -1,0 +1,13 @@
+﻿CreateMeshBuilder
+AddVertex,-120,-3.6,0
+AddVertex,-120,-3.6,25
+AddVertex,120,-3.6,25
+AddVertex,120,-3.6,0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,River.png
+SetTextureCoordinates,0,0,2
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,20,0
+SetTextureCoordinates,3,20,2
+SetColor,224,255,224,96

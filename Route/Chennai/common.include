@@ -45,6 +45,8 @@ With Structure
 .Rail(14) Chennai\1500_r.b3d,
 .Rail(15) Chennai\2000_r.b3d,
 .Rail(20) Chennai\straight.b3d,
+.Rail(21) Chennai\Rail\Rail_L_600.csv
+.Rail(22) Chennai\Rail\Rail_R_600.csv
 .Rail(51) Chennai\dl_straight.b3d,
 
 .Ground(1) Chennai\ground1.csv,
@@ -57,15 +59,18 @@ With Structure
 .freeobj(31) Chennai\bufferstop.x,
 .freeobj(40) Chennai\signal_pole.csv,
 .freeobj(60) Chennai\platform_1.csv,
-.freeobj(61) platform ramp_up_right.csv,
+.freeobj(61) Chennai\platform ramp_up_right.csv,
+.freeobj(61) Chennai\platform ramp_down_right.csv,
 .FreeObj(240) Chennai\Pole_Contact_L.csv
 .FreeObj(241) Chennai\Pole_Contact_R.csv
 .FreeObj(242) Chennai\Pole_2.csv
 .FreeObj(243) Chennai\Pole_3.csv
 .FreeObj(244) Chennai\Pole_4.csv
 .FreeObj(245) Chennai\Pole_5.csv
+.FreeObj(246) Chennai\Pole_L.csv
+.FreeObj(247) Chennai\Pole_R.csv
 
-Texture.Background(0) Chennai\background_1.bmp,
+Texture.Background(0) Chennai/Backgrounds/Background_0.png,
 
 Signal(1).Load Chennai\brsigs\signal2g; Chennai\brsigs\glow2g
 Signal(2).Load Chennai\brsigs\signal2y; Chennai\brsigs\glow2y
