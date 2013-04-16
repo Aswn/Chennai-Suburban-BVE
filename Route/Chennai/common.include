@@ -58,6 +58,12 @@ With Structure
 .freeobj(40) Chennai\signal_pole.csv,
 .freeobj(60) Chennai\platform_1.csv,
 .freeobj(61) platform ramp_up_right.csv,
+.FreeObj(240) Chennai\Pole_Contact_L.csv
+.FreeObj(241) Chennai\Pole_Contact_R.csv
+.FreeObj(242) Chennai\Pole_2.csv
+.FreeObj(243) Chennai\Pole_3.csv
+.FreeObj(244) Chennai\Pole_4.csv
+.FreeObj(245) Chennai\Pole_5.csv
 
 Texture.Background(0) Chennai\background_1.bmp,
 

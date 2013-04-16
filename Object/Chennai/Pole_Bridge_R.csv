@@ -1,0 +1,111 @@
+﻿CreateMeshBuilder
+AddVertex, -2.5, 5.25, -0.03
+AddVertex, -2.5, 6.35, -0.03
+AddVertex, 0.5, 6.35, -0.03
+AddVertex, 0.5, 5.25, -0.03
+AddVertex, -2.5, 5.25, 0.03
+AddVertex, -2.5, 6.35, 0.03
+AddVertex, 0.5, 6.35, 0.03
+AddVertex, 0.5, 5.25, 0.03
+AddFace, 0, 1, 2, 3
+AddFace, 7, 6, 5, 4
+LoadTexture, Pole_Single.png
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetTextureCoordinates, 4, 0, 1
+SetTextureCoordinates, 5, 0, 0
+SetTextureCoordinates, 6, 1, 0
+SetTextureCoordinates, 7, 1, 1
+
+CreateMeshBuilder
+Cylinder, 6, 0.12, 0.12, 8
+Translate, -2.5, 3.5, 0
+LoadTexture, Pole_Pillar.png
+SetTextureCoordinates, 0, 0.00, 0
+SetTextureCoordinates, 1, 0.00, 5
+SetTextureCoordinates, 2, 0.33, 0
+SetTextureCoordinates, 3, 0.33, 5
+SetTextureCoordinates, 4, 0.66, 0
+SetTextureCoordinates, 5, 0.66, 5
+SetTextureCoordinates, 6, 1.00, 0
+SetTextureCoordinates, 7, 1.00, 5
+SetTextureCoordinates, 8, 0.66, 0
+SetTextureCoordinates, 9, 0.66, 5
+SetTextureCoordinates, 10, 0.33, 0
+SetTextureCoordinates, 11, 0.33, 5
+
+CreateMeshBuilder
+AddVertex,-2.6,-0.6,0,
+AddVertex,-1.9,-0.6,0,
+AddVertex,-1.9,-1.5,0,
+AddVertex,1.9,-1.5,0,
+AddVertex,-2.6,-0.6,28,
+AddVertex,-1.9,-0.6,28,
+AddVertex,-1.9,-1.5,28,
+AddVertex,1.9,-1.5,28,
+AddFace,0,1,5,4
+AddFace,1,2,6,5
+AddFace,2,3,7,6
+LoadTexture,Bridge_Bottom.png
+SetTextureCoordinates,0,6,0,
+SetTextureCoordinates,1,6,0.25,
+SetTextureCoordinates,2,6,0.5,
+SetTextureCoordinates,3,6,1,
+SetTextureCoordinates,4,0,0,
+SetTextureCoordinates,5,0,0.25,
+SetTextureCoordinates,6,0,0.5,
+SetTextureCoordinates,7,0,1,
+
+CreateMeshBuilder
+AddVertex,-1.9,-0.6,0,
+AddVertex,-1.9,-0.144,0,
+AddVertex,-2.5,-0.144,0,
+AddVertex,-1.9,-0.6,25.3,
+AddVertex,-1.9,-0.144,25.3,
+AddVertex,-2.5,-0.144,25.3,
+AddFace,0,1,4,3
+AddFace,1,2,5,4
+LoadTexture,Slab.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0.75,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,4,0.75,0
+SetTextureCoordinates,5,1,0
+
+CreateMeshBuilder
+AddVertex,-2.5,-0.144,0
+AddVertex,-2.5,1.2,0
+AddVertex,-2.6,1.2,0
+AddVertex,-2.6,-0.6,0
+AddVertex,-2.5,-0.144,25.3
+AddVertex,-2.5,1.2,25.3
+AddVertex,-2.6,1.2,25.3,
+AddVertex,-2.6,-0.6,25.3,
+AddFace,0,1,5,4
+AddFace,1,2,6,5
+AddFace,2,3,7,6
+LoadTexture,Wall.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,0.01,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,5,1,
+SetTextureCoordinates,5,5,0,
+SetTextureCoordinates,6,5,0.01,
+SetTextureCoordinates,7,5,1,
+
+CreateMeshBuilder
+AddVertex,-1.9,-0.45,0,
+AddVertex,-1.9,-0.144,0,
+AddVertex,-2.5,-0.144,0,
+AddVertex,-2.5,1.2,0,
+AddVertex,-2.6,1.2,0,
+AddVertex,-2.6,-0.45,0,
+AddFace,0,1,2,5
+AddFace,2,3,4,5
+SetColor,160,158,152
+
+ScaleAll, -1, 1, 1
