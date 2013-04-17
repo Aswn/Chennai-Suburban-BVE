@@ -5,11 +5,15 @@ With Route
 .Comment Chennai Central → Avadi Up to 9 cars
 .Timetable Local train
 .Image ..\map.png
+.DeveloperID Aswn
 
 ; train
 ; -----
 With Train
 .Folder BR_Class_323
+
+Route.change 1,
+Route.runinterval 300,
 
 ; common structures and configurations
 ; ------------------------------------
@@ -18,4 +22,26 @@ $include(..\common.include)
 
 With Track
 
-$Include(..\.include)
+$Include(..\forward_central1.include)
+$Include(..\forward_basinbridge1.include)
+$Include(..\forward_Vysarpadi_Jeeva.include)
+$Include(..\forward_Villivakkam1.include)
+
+000000,.sta Chennai Central Moore Market Complex;09.2720;09.2805;1;1;1;;;7;10;;0,
+002000,.sta Basin Bridge; 09.3000;09.3020;;-1;;;;;;;0,
+004200,.sta Vysarpadi Jeeva;;;;-1;1;;;;;;0,
+005400,.sta Perambur; 09.3400;09.3420;;-1;;;;;;;0,
+006000,.sta Perambur Carriage Works;;;;-1;1;;;;;;0,
+007750,.sta Perambur Loco Works;;;;-1;1;;;;;;0,
+009500,.sta Villivakkam;;;;-1;1;;;;;;0,
+012000,.sta Korattur;;;;-1;1;;;;;;0,
+014000,.sta Pattaravakkam;;;;-1;1;;;;;;0,
+014500,.freeobj 0;1,.beacon 21;0;0;70,
+015000,.sta Ambattur;;;;-1;1;;;;;;0,
+016700,.sta Thirumullaivoyal;;;;-1;1;;;;;;0,
+018000,.sta Annanur;;;;-1;1;;;;;;0,
+020500,.freeobj 0;1,.beacon 21;0;0;70,
+021000,.sta Avadi;;;;-1;1;;;;;;0,
+
+021225,.freeobj 0;1,.beacon 21;0;0;70,
+021725,.railend 0,railend 1,railend 2,.railend 3,

@@ -48,27 +48,31 @@ With Structure
 .Rail(21) Chennai\Rail\Rail_L_600.csv
 .Rail(22) Chennai\Rail\Rail_R_600.csv
 .Rail(51) Chennai\dl_straight.b3d,
+.Rail(52) Chennai\straight_extended.b3d,
+.Rail(53) Chennai\null_rail.b3d,
 
 .Ground(1) Chennai\ground1.csv,
 .dikel(1) Chennai\ballast_dike_both.csv,
 .wallR(1) Chennai\tunnel_approach_wall_right_1.csv,
 .CrackL(0) Chennai\BallastL.csv,
 .CrackR(0) Chennai\BallastR.csv,
-.Freeobj(1) Chennai\stop_500m.csv,
-.Freeobj(2) Chennai\stop_here.csv,
+.freeobj(1) Chennai\stop_500m.csv,
+.freeobj(2) Chennai\stop_here.csv,
+.freeobj(10) Chennai\switch_L_250.b3d,
+.freeobj(30) Chennai\brsigs\awsmagnet_1.x,
 .freeobj(31) Chennai\bufferstop.x,
 .freeobj(40) Chennai\signal_pole.csv,
 .freeobj(60) Chennai\platform_1.csv,
 .freeobj(61) Chennai\platform ramp_up_right.csv,
 .freeobj(61) Chennai\platform ramp_down_right.csv,
-.FreeObj(240) Chennai\Pole_Contact_L.csv
-.FreeObj(241) Chennai\Pole_Contact_R.csv
-.FreeObj(242) Chennai\Pole_2.csv
-.FreeObj(243) Chennai\Pole_3.csv
-.FreeObj(244) Chennai\Pole_4.csv
-.FreeObj(245) Chennai\Pole_5.csv
-.FreeObj(246) Chennai\Pole_L.csv
-.FreeObj(247) Chennai\Pole_R.csv
+.freeobj(240) Chennai\Pole_Contact_L.csv
+.freeobj(241) Chennai\Pole_Contact_R.csv
+.freeobj(242) Chennai\Pole_2.csv
+.freeobj(243) Chennai\Pole_3.csv
+.freeobj(244) Chennai\Pole_4.csv
+.freeobj(245) Chennai\Pole_5.csv
+.freeobj(246) Chennai\Pole_L.csv
+.freeobj(247) Chennai\Pole_R.csv
 
 Texture.Background(0) Chennai/Backgrounds/Background_0.png,
 

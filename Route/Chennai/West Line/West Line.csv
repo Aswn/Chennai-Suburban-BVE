@@ -23,10 +23,8 @@ $Include(..\forward_Villivakkam1.include)
 000000,.sta Chennai Central Moore Market Complex;09.2720;09.2805;1;1;1;;;7;10;;0,
 002000,.sta Basin Bridge; 09.3000;09.3020;;-1;;;;;;;0,
 004200,.sta Vysarpadi Jeeva;;;;-1;1;;;;;;0,
-005600,.sta Perambur; 09.3400;09.3420;;-1;;;;;;;0,
-005850,.stop 0,
+005400,.sta Perambur; 09.3400;09.3420;;-1;;;;;;;0,
 006000,.sta Perambur Carriage Works;;;;-1;1;;;;;;0,
-006250,.stop 0,
 007750,.sta Perambur Loco Works;;;;-1;1;;;;;;0,
 009500,.sta Villivakkam;;;;-1;1;;;;;;0,
 012000,.sta Korattur;;;;-1;1;;;;;;0,
@@ -138,8 +136,8 @@ $Include(..\forward_Villivakkam1.include)
 206000,.sta Kettandapatti;;;;-1;1;;;;;;0,
 206250,.stop 0,
 212500,.freeobj 0;1,.beacon 21;0;0;70,
-213000,.sta Jolarpet;;;;-1;1;;;;;;0,
+213000,.sta Jolarpet;T;;;-1;1;;;;;;0,
 213025,.stop 0,
 213050,.sigf 3;1;-2.75;4.6,.section 0;2;4,
 213500,.freeobj 0;1,.beacon 21;0;0;70,
-214000,.railend 0;50.77,railend 1;50.77,railend 2;50.77,.railend 3;54.27
+214000,.railend 0,.railend 1,.railend 2,.railend 3
