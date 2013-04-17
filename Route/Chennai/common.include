@@ -45,26 +45,37 @@ With Structure
 .Rail(14) Chennai\1500_r.b3d,
 .Rail(15) Chennai\2000_r.b3d,
 .Rail(20) Chennai\straight.b3d,
-.Rail(21) Chennai\Rail\Rail_L_600.csv
-.Rail(22) Chennai\Rail\Rail_R_600.csv
+.Rail(21) Chennai\Rail\Rail_L_600.csv,
+.Rail(22) Chennai\Rail\Rail_R_600.csv,
 .Rail(51) Chennai\dl_straight.b3d,
 .Rail(52) Chennai\straight_extended.b3d,
 .Rail(53) Chennai\null_rail.b3d,
 
 .Ground(1) Chennai\ground1.csv,
+.Ground(2) Chennai\sea_1.csv,
+
 .dikel(1) Chennai\ballast_dike_both.csv,
-.wallR(1) Chennai\tunnel_approach_wall_right_1.csv,
+
+.wallL(1) Chennai\fence_1.csv,
+.wallR(1) Chennai\tunnel_approach_wall_right_1_modified.csv,
+
+.Beacon(0) Chennai\Brsigs\aws_null_0.x
+.Beacon(1) Chennai\Brsigs\awsmagnet_1.x 
+
 .CrackL(0) Chennai\BallastL.csv,
 .CrackR(0) Chennai\BallastR.csv,
+
 .freeobj(1) Chennai\stop_500m.csv,
 .freeobj(2) Chennai\stop_here.csv,
 .freeobj(10) Chennai\switch_L_250.b3d,
-.freeobj(30) Chennai\brsigs\awsmagnet_1.x,
-.freeobj(31) Chennai\bufferstop.x,
+.freeobj(20) Chennai\limit_75.x,
+.freeobj(21) Chennai\limit_20.x,
+.freeobj(22) Chennai\warning_20.x,
+.freeobj(30) Chennai\Brsigs\awsmagnet_1.x,
 .freeobj(40) Chennai\signal_pole.csv,
 .freeobj(60) Chennai\platform_1.csv,
 .freeobj(61) Chennai\platform ramp_up_right.csv,
-.freeobj(61) Chennai\platform ramp_down_right.csv,
+.freeobj(62) Chennai\platform ramp_down_right.csv,
 .freeobj(240) Chennai\Pole_Contact_L.csv
 .freeobj(241) Chennai\Pole_Contact_R.csv
 .freeobj(242) Chennai\Pole_2.csv
@@ -76,16 +87,16 @@ With Structure
 
 Texture.Background(0) Chennai/Backgrounds/Background_0.png,
 
-Signal(1).Load Chennai\brsigs\signal2g; Chennai\brsigs\glow2g
-Signal(2).Load Chennai\brsigs\signal2y; Chennai\brsigs\glow2y
-Signal(3).Load Chennai\brsigs\signal3; Chennai\brsigs\glow3
-Signal(4).Load Chennai\brsigs\signal4yg; Chennai\brsigs\glow4yg
-Signal(5).Load Chennai\brsigs\repeat; Chennai\brsigs\glowrepeat
-Signal(6).Load Chennai\brsigs\signal3featherl; Chennai\brsigs\glow3
-Signal(7).Load Chennai\brsigs\signal3featherr; Chennai\brsigs\glow3
-Signal(8).Load Chennai\brsigs\signal4ygfeatherl; Chennai\brsigs\glow4yg
-Signal(9).Load Chennai\brsigs\signal4ygfeatherr; Chennai\brsigs\glow4yg
-Signal(10).Load Chennai\brsigs\signal2callon; Chennai\brsigs\glow2g
-Signal(11).Load Chennai\brsigs\signal3callon; Chennai\brsigs\glow3
-Signal(12).Load Chennai\brsigs\signal4callon; Chennai\brsigs\glow4yg
-Signal(13).Load Chennai\brsigs\signal2gy; brsigs\glow2gy
+Signal(1).Load Chennai\Brsigs\signal2g; Chennai\Brsigs\glow2g.x
+Signal(2).Load Chennai\Brsigs\signal2y; Chennai\Brsigs\glow2y.x
+Signal(3).Load Chennai\Brsigs\signal3; Chennai\Brsigs\glow3.x
+Signal(4).Load Chennai\Brsigs\signal4yg; Chennai\Brsigs\glow4yg.x
+Signal(5).Load Chennai\Brsigs\repeat; Chennai\Brsigs\glowrepeat.x
+Signal(6).Load Chennai\Brsigs\signal3featherl; Chennai\Brsigs\glow3.x
+Signal(7).Load Chennai\Brsigs\signal3featherr; Chennai\Brsigs\glow3.x
+Signal(8).Load Chennai\Brsigs\signal4ygfeatherl; Chennai\Brsigs\glow4yg.x
+Signal(9).Load Chennai\Brsigs\signal4ygfeatherr; Chennai\Brsigs\glow4yg.x
+Signal(10).Load Chennai\Brsigs\signal2callon; Chennai\Brsigs\glow2g.x
+Signal(11).Load Chennai\Brsigs\signal3callon; Chennai\Brsigs\glow3.x
+Signal(12).Load Chennai\Brsigs\signal4callon; Chennai\Brsigs\glow4yg.x
+Signal(13).Load Chennai\Brsigs\signal2gy; Chennai\Brsigs\glow2gy.x
