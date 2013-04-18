@@ -84,6 +84,9 @@ With Structure
 .freeobj(245) Chennai\Pole_5.csv
 .freeobj(246) Chennai\Pole_L.csv
 .freeobj(247) Chennai\Pole_R.csv
+.freeobj(248) Chennai\Wood_Platform.csv
+.freeobj(249) Chennai\Wood_Platform_Dark.csv
+.freeobj(250) Chennai\Wood_Platform_Descent.csv
 
 Texture.Background(0) Chennai/Backgrounds/Background_0.png,
 
