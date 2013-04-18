@@ -8,7 +8,7 @@
 150,.stop 0,.freeobj 0;60;0;0;180,.freeobj 0;247,
 171,.beacon 44003;0;1;0,
 175,.freeobj 0;60;0;0;180,.sigf 3;1;2.75;4.6,.section 0;2;4,.freeobj 0;40;-0.5;-0.2,.freeobj 0;247,
-200,.freeobj 0;61;-0.3;0;180,.freeobj 0;247,.freeobj 1;247,.freeobj 2;2w46,.freeobj 3;247,.railtype 0;21,.curve -1000;0,.railtype 1;21,.railtype 2;21,.railtype 3;21,.rail 4;-13,
+200,.freeobj 0;61;-0.3;0;180,.freeobj 0;247,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,.railtype 0;21,.curve -1000;0,.railtype 1;21,.railtype 2;21,.railtype 3;21,.rail 4;-13,
 225,.freeobj 0;246,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,.railtype 0;22,.curve 1000;0,.railtype 1;22,.railtype 2;22,.railtype 3;22,.rail 4;-11,
 250,.rail 4:-3,.freeobj 0;246,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,
 275,.rail 4:-0,.freeobj 0;246,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,

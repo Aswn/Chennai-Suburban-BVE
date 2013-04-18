@@ -27,6 +27,7 @@ $Include(..\forward_basinbridge1.include)
 $Include(..\forward_perambur.include)
 $Include(..\forward_Vysarpadi_Jeeva.include)
 $Include(..\forward_Villivakkam1.include)
+$Include(..\forward_Avadi.include)
 
 000000,.sta Chennai Central Moore Market Complex;09.2720;09.2805;1;1;1;;;;;;0,
 002000,.sta Basin Bridge; 09.3000;09.3020;;-1;;;;;;;0,
