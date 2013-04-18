@@ -16,6 +16,6 @@
 350,.freeobj 0;246,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,
 400,.freeobj 0;246,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,
 450,.railtype 0;21,.curve -500;0,.railtype 1;21,.railtype 2;21,.railtype 3;21,.freeobj 0;246,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,
-650,.rail 5;10,.curve 0;0,.railtype 0;1,.railtype 1;1,.railtype 2;1,.railtype 3;1,.freeobj 0;246,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,
+650,.rail 5;10,.railend 5,.curve 0;0,.railtype 0;1,.railtype 1;1,.railtype 2;1,.railtype 3;1,.freeobj 0;246,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,
 800,.railtype 0;22,.curve 1000;0,.railtype 1;22,.railtype 2;22,.railtype 3;22,.freeobj 0;246,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,
 975,.curve 0;0,.railtype 0;1,.railtype 1;1,.railtype 2;1,.railtype 3;1,.freeobj 0;246,.freeobj 1;247,.freeobj 2;246,.freeobj 3;247,
