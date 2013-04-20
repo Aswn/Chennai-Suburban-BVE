@@ -301,6 +301,14 @@ With Structure
 .FreeObj(551) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b2a.csv
 .FreeObj(552) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b1a.csv
 .FreeObj(553) Chennai\Catenary\Mk3\OLE_XP\OLE_HWire_Ovr_6.csv
+.FreeObj(643) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_c.csv
+.FreeObj(644) Chennai\Catenary\Mk3\OLE_XP\OLE_H_1trk50_c.csv
+.FreeObj(645) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk50_a.csv,
+.FreeObj(646) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk50_b.csv,
+.FreeObj(647) Chennai\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_7.csv
+.FreeObj(685) Chennai\Catenary\Mk3_New\TensionWeightL_XP.csv
+.FreeObj(686) Chennai\Catenary\Mk3_New\TensionWeightR.csv
+
 .FreeObj(762) Chennai\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_7a.csv
 .FreeObj(763) Chennai\Catenary\Mk3_New\Mk3_HOvr_Support.csv
 .FreeObj(764) Chennai\Catenary\Mk3_New\Mk3_HOvr_Support2.csv
@@ -372,6 +380,7 @@ With Structure
 .FreeObj(834) Chennai\Catenary\Mk3\OLE_XP\OLE_AnchorSpan_2_63.csv
 .FreeObj(835) Chennai\Catenary\Mk3\OLE_XP\OLE_AnchorSpan_1_25.csv
 .FreeObj(836) Chennai\Catenary\Mk3\OLE_XP\OLE_AnchorSpan_2_25.csv
+.FreeObj(850) Chennai\Catenary\Mk3_New\Masts_3D\Mk3_Tension_1.csv
 
 Texture.Background(0) Chennai/Backgrounds/Background_0.png,
 
