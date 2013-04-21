@@ -23,7 +23,7 @@ $Include(..\forward_Villivakkam1.include)
 $Include(..\forward_Avadi.include)
 
 000000,.sta Chennai Central Moore Market Complex;09.2720;09.2805;1;1;1;;;7;10;;0,
-002000,.sta Basin Bridge; 09.3000;09.3020;;-1;;;;;;;0,
+001950,.sta Basin Bridge; 09.3000;09.3020;;-1;;;;;;;0,
 004200,.sta Vysarpadi Jeeva;;;;-1;1;;;;;;0,
 005400,.sta Perambur; 09.3400;09.3420;;-1;;;;;;;0,
 006000,.sta Perambur Carriage Works;;;;-1;1;;;;;;0,
