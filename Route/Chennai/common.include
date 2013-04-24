@@ -348,6 +348,7 @@ With Structure
 .FreeObj(569) Chennai\Signalling\Sig_Plate.csv,
 .FreeObj(570) Chennai\Signalling\Sig_T3.csv,
 .FreeObj(572) Chennai\Signalling\Sig_T5.csv,
+.FreeObj(596) Chennai\Signs\CarStop.csv
 .FreeObj(643) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_c.csv,
 .FreeObj(644) Chennai\Catenary\Mk3\OLE_XP\OLE_H_1trk50_c.csv,
 .FreeObj(645) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk50_a.csv,
@@ -443,7 +444,7 @@ With Structure
 
 Texture.Background(0) Chennai/Backgrounds/Background_0.png,
 
-Signal(3).Load Chennai/Brsigs/night/glow3
+Signal(3).Load Chennai/Brsigs/glow3
 Signal(4).Load Chennai/Brsigs/night/glow4yg
 Signal(5).Load Chennai/Brsigs/night/glowrepeat
 Signal(8).Load Chennai/Brsigs/night/glow4ygfeatherl
