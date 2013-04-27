@@ -65,10 +65,12 @@
 .section 0;2;3;4,
 .freeobj 0;40;-0.5;-0.2,
 
+
 187,
 .FreeObj 0;508;,
 .Freeobj 0;777;-3;0;,
 .FreeObj 0;535;;0;,
+.freeobj 0;75;-2.75;,
 
 200,
 .freeobj 0;61;-0.3;0;180,

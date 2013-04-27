@@ -281,6 +281,9 @@ With Structure
 .FreeObj(62) Chennai\platform ramp_down_right.csv,
 .FreeObj(69) Chennai\Signalling\Sig_Plate.csv,
 .FreeObj(72) Chennai\Signalling\Sig_T5.csv,
+.FreeObj(75) Chennai\Signs\Limit_25.csv,
+.FreeObj(76) Chennai\Signs\EMU STOP.csv,
+
 .FreeObj(248) Chennai\Wood_Platform.csv,
 .FreeObj(249) Chennai\Wood_Platform_Dark.csv,
 .FreeObj(250) Chennai\Wood_Platform_Descent.csv,
