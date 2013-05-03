@@ -6,8 +6,8 @@
 ; -----
 With Route
 .Gauge 1435,
-.Signal(2) 60,
-.Signal(3) 120,
+.Signal(2) 40,
+.Signal(3) 80,
 
 With Train
 .Run(0) 2
@@ -198,7 +198,7 @@ With Structure
 .Rail(1) Chennai\RailObjects\Line\StdTrackCS_1.csv,
 .Rail(3) Chennai\500_l.b3d,
 .Rail(4) Chennai\750_l.b3d,
-.Rail(5) Chennai\RailObjects\Line\StdTrackCS_1_1000L.csv
+.Rail(5) Chennai\RailObjects\Line\StdTrackCS_1_1000L.csv,
 .Rail(6) Chennai\1250_l.b3d,
 .Rail(7) Chennai\1500_l.b3d,
 .Rail(8) Chennai\2000_l.b3d,
@@ -210,49 +210,49 @@ With Structure
 .Rail(14) Chennai\1500_r.b3d,
 .Rail(15) Chennai\2000_r.b3d,
 .Rail(20) Chennai\straight.b3d,
-.Rail(21) Chennai\RailObjects\Line\StdTrackCS_1_600L.csv
-.Rail(22) Chennai\RailObjects\Line\StdTrackCS_1_600R.csv
+.Rail(21) Chennai\RailObjects\Line\StdTrackCS_1_600L.csv,
+.Rail(22) Chennai\RailObjects\Line\StdTrackCS_1_600R.csv,
 .Rail(51) Chennai\dl_straight.b3d,
 .Rail(52) Chennai\straight_extended.b3d,
 .Rail(53) Chennai\RailObjects\Line\nullrail.csv,
-.Rail(54) Chennai\RailObjects\Line\StdTrackWS_1_300L.csv
-.Rail(55) Chennai\RailObjects\Line\StdTrackWS_1_1000L.csv
+.Rail(54) Chennai\RailObjects\Line\StdTrackWS_1_300L.csv,
+.Rail(55) Chennai\RailObjects\Line\StdTrackWS_1_1000L.csv,
 .Rail(56) Bham_X-City_South\X-CitySouth_1_3\StdTrackWS_1_NS800L.x,
-.Rail(57) Chennai\RailObjects\Line\StdTrackCS_2.csv
-.Rail(58) Chennai\RailObjects\Line\StdTrackNB1.csv
-.Rail(59) Chennai\RailObjects\Line\StdTrackNB1a.csv
-.Rail(60) Chennai\RailObjects\Line\StdTrackCS_2.csv
-.Rail(61) Chennai\RailObjects\Line\StdTrackCS_1_300R.csv
+.Rail(57) Chennai\RailObjects\Line\StdTrackCS_2.csv,
+.Rail(58) Chennai\RailObjects\Line\StdTrackNB1.csv,
+.Rail(59) Chennai\RailObjects\Line\StdTrackNB1a.csv,
+.Rail(60) Chennai\RailObjects\Line\StdTrackCS_2.csv,
+.Rail(61) Chennai\RailObjects\Line\StdTrackCS_1_300R.csv,
 
 .Rail(64) Chennai\RailObjects\Line\StdTrackCS_1_2000L.csv,
 .Rail(65) Chennai\RailObjects\Line\StdTrackWS_1_2000L.csv,
 .Rail(66) Chennai\RailObjects\Line\StdTrackCS_1_2000L.csv,
-.Rail(67) Chennai\RailObjects\Line\StdTrackWS_1_1000R_CP.csv
-.Rail(68) Chennai\RailObjects\Line\StdTrackWS_1_800L_CP.csv
+.Rail(67) Chennai\RailObjects\Line\StdTrackWS_1_1000R_CP.csv,
+.Rail(68) Chennai\RailObjects\Line\StdTrackWS_1_800L_CP.csv,
 .Rail(69) Chennai\RailObjects\Line\StdTrackCS_1_500R.csv,
-.Rail(70) Chennai\RailObjects\Line\StdTrackWS_2_2000R.csv
-.Rail(71) Chennai\RailObjects\Line\StdTrackCS_1_1000R.csv
-.Rail(72) Chennai\RailObjects\Line\StdTrackCS_1_2000R.csv
-.Rail(73) Chennai\RailObjects\Line\StdTrackCS_1_2000L.csv
-.Rail(74) Chennai\RailObjects\Line\StdTrackCS_1_2000L.csv
-.Rail(75) Chennai\RailObjects\Line\StdTrackCS_1_2000R.csv
+.Rail(70) Chennai\RailObjects\Line\StdTrackWS_2_2000R.csv,
+.Rail(71) Chennai\RailObjects\Line\StdTrackCS_1_1000R.csv,
+.Rail(72) Chennai\RailObjects\Line\StdTrackCS_1_2000R.csv,
+.Rail(73) Chennai\RailObjects\Line\StdTrackCS_1_2000L.csv,
+.Rail(74) Chennai\RailObjects\Line\StdTrackCS_1_2000L.csv,
+.Rail(75) Chennai\RailObjects\Line\StdTrackCS_1_2000R.csv,
 .Rail(76) Chennai\RailObjects\Line\StdTrackWS_1.csv,
 
-.Rail(79) Chennai\RailObjects\Line\StdTrackCS_1_600R.csv
-.Rail(80) Chennai\RailObjects\Line\StdTrackCS_1_600R.csv
-.Rail(81) Chennai\RailObjects\Line\StdTrackCS_1_600R.csv
+.Rail(79) Chennai\RailObjects\Line\StdTrackCS_1_600R.csv,
+.Rail(80) Chennai\RailObjects\Line\StdTrackCS_1_600R.csv,
+.Rail(81) Chennai\RailObjects\Line\StdTrackCS_1_600R.csv,
 
-.Rail(85) Chennai\RailObjects\Line\StdTrackCS_1_500R.csv
-.Rail(86) Chennai\RailObjects\Line\StdTrackCS_1_600L.csv
-.Rail(87) Chennai\RailObjects\Line\StdTrackCS_1_600L.csv
+.Rail(85) Chennai\RailObjects\Line\StdTrackCS_1_500R.csv,
+.Rail(86) Chennai\RailObjects\Line\StdTrackCS_1_600L.csv,
+.Rail(87) Chennai\RailObjects\Line\StdTrackCS_1_600L.csv,
 
-.Rail(111) Chennai\RailObjects\Line\StdTrackCS_6_800R.csv
-.Rail(112) Chennai\RailObjects\Line\StdTrackCS_6_800R.csv
-.Rail(113) Chennai\RailObjects\Line\StdTrackCS_6_800L.csv
-.Rail(114) Chennai\RailObjects\Line\StdTrackCS_6_1000L.csv
-.Rail(115) Chennai\RailObjects\Line\StdTrackCS_6_1000L.csv
-.Rail(116) Chennai\RailObjects\Line\StdTrackCS_6.csv
-.Rail(117) Chennai\RailObjects\Line\StdTrackCS_6.csv
+.Rail(111) Chennai\RailObjects\Line\StdTrackCS_6_800R.csv,
+.Rail(112) Chennai\RailObjects\Line\StdTrackCS_6_800R.csv,
+.Rail(113) Chennai\RailObjects\Line\StdTrackCS_6_800L.csv,
+.Rail(114) Chennai\RailObjects\Line\StdTrackCS_6_1000L.csv,
+.Rail(115) Chennai\RailObjects\Line\StdTrackCS_6_1000L.csv,
+.Rail(116) Chennai\RailObjects\Line\StdTrackCS_6.csv,
+.Rail(117) Chennai\RailObjects\Line\StdTrackCS_6.csv,
 
 .Ground(1) Chennai\ground1.csv,
 .Ground(2) Chennai\sea_1.csv,
@@ -262,8 +262,8 @@ With Structure
 .wallL(1) Chennai\fence_1.csv,
 .wallR(1) Chennai\tunnel_approach_wall_right_1_modified.csv,
 
-.Beacon(0) Chennai/Brsigs/night\aws_null_0.x
-.Beacon(1) Chennai/Brsigs/night\aws_null_0.x
+.Beacon(0) Chennai/Brsigs/night\aws_null_0.x,
+.Beacon(1) Chennai/Brsigs/night\aws_null_0.x,
 
 .CrackL(0) Chennai\BallastL.csv,
 .CrackR(0) Chennai\BallastR.csv,
@@ -343,7 +343,7 @@ With Structure
 .FreeObj(569) Chennai\Signalling\Sig_Plate.csv,
 .FreeObj(570) Chennai\Signalling\Sig_T3.csv,
 .FreeObj(572) Chennai\Signalling\Sig_T5.csv,
-.FreeObj(596) Chennai\Signs\CarStop.csv
+.FreeObj(596) Chennai\Signs\CarStop.csv,
 .FreeObj(643) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_c.csv,
 .FreeObj(644) Chennai\Catenary\Mk3\OLE_XP\OLE_H_1trk50_c.csv,
 .FreeObj(645) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk50_a.csv,
@@ -352,10 +352,10 @@ With Structure
 .FreeObj(651) Chennai\Catenary\Mk3_New\Masts_3D\Mk3_HalfGantry_RL.csv,
 .FreeObj(652) Chennai\Signalling\Relay_Cab.csv,
 .FreeObj(653) Chennai\Signalling\Sig_T5b.csv,
-.FreeObj(654) Chennai\Catenary\Mk3_New\Mk3_Transformer.csv
+.FreeObj(654) Chennai\Catenary\Mk3_New\Mk3_Transformer.csv,
 
 .FreeObj(685) Chennai\Catenary\Mk3_New\TensionWeightL_XP.csv,
-.FreeObj(686) Chennai\Catenary\Mk3_New\TensionWeightR.csv
+.FreeObj(686) Chennai\Catenary\Mk3_New\TensionWeightR.csv,
 
 .FreeObj(762) Chennai\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_7a.csv,
 .FreeObj(763) Chennai\Catenary\Mk3_New\Mk3_HOvr_Support.csv,

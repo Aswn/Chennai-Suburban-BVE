@@ -66,8 +66,9 @@
 .FreeObj 3;533;;0;,
 
 009000,
-.curve -650;0,
-.railtype 0;21,
+.curve -800;0,
+.railtype 0;113,
+.railtype 1;113,
 .freeobj 0;1,
 .FreeObj 0;508;,
 .Freeobj 0;775;-3;0;,
@@ -87,6 +88,9 @@
 .rail 3;14.75,
 
 009050,
+.curve 0;0,
+.railtype 0;1,
+.railtype 1;1,
 .rail 2;11.5,
 .rail 3;16,
 .FreeObj 0;508;,
@@ -102,14 +106,12 @@
 .FreeObj 3;533;;0;,
 
 009075,
-.rail 2;14,
-.rail 3;18.5,
+.rail 2;13.,
+.rail 3;17.5,
 
 009100,
-.rail 2;17.5,
-.rail 3;22,
-.curve 650;0,
-.railtype 0;22,
+.rail 2;14.5,
+.rail 3;19,
 .FreeObj 0;508;,
 .Freeobj 0;775;-3;0;,
 .FreeObj 0;533;;0;,
@@ -123,8 +125,8 @@
 .FreeObj 3;533;;0;,
 
 009125,
-.rail 2;15.75,
-.rail 3;20.25,
+.rail 2;16,
+.rail 3;20.5,
 
 009150,
 .rail 2;17.75,
@@ -140,6 +142,9 @@
 .FreeObj 3;520;,
 .Freeobj 3;778;3;0;,
 .FreeObj 3;533;;0;,
+.curve 800;0,
+.railtype 0;112,
+.railtype 1;112,
 
 009175,
 .rail 2;19,
@@ -148,6 +153,7 @@
 009200,
 .curve 0;0,
 .railtype 0;1,
+.railtype 1;1,
 .rail 2;19.5,
 .rail 3;24,
 .FreeObj 0;508;,
@@ -175,8 +181,14 @@
 .Freeobj 3;778;3;0;,
 .FreeObj 3;533;;0;,
 
+009275,
+.freeobj 1;60,
+.freeobj 3;60,
+
 009300,
 .freeobj 0;60;0;0;180,
+.freeobj 1;60,
+.freeobj 3;60,
 .FreeObj 0;508;,
 .Freeobj 0;775;-3;0;,
 .FreeObj 0;533;;0;,
@@ -191,9 +203,13 @@
 
 009325,
 .freeobj 0;60;0;0;180,
+.freeobj 1;60,
+.freeobj 3;60,
 
 009350,
 .freeobj 0;60;0;0;180,
+.freeobj 1;60,
+.freeobj 3;60,
 .FreeObj 0;508;,
 .Freeobj 0;775;-3;0;,
 .FreeObj 0;533;;0;,
@@ -208,9 +224,13 @@
 
 009375,
 .freeobj 0;60;0;0;180,
+.freeobj 1;60,
+.freeobj 3;60,
 
 009400,
 .freeobj 0;60;0;0;180,
+.freeobj 1;60,
+.freeobj 3;60,
 .FreeObj 0;508;,
 .Freeobj 0;775;-3;0;,
 .FreeObj 0;533;;0;,
@@ -225,9 +245,13 @@
 
 009425,
 .freeobj 0;60;0;0;180,
+.freeobj 1;60,
+.freeobj 3;60,
 
 009450,
 .freeobj 0;60;0;0;180,
+.freeobj 1;60,
+.freeobj 3;60,
 .FreeObj 0;508;,
 .Freeobj 0;775;-3;0;,
 .FreeObj 0;533;;0;,
@@ -242,9 +266,13 @@
 
 009475,
 .freeobj 0;60;0;0;180,
+.freeobj 1;60,
+.freeobj 3;60,
 
 009500,
 .freeobj 0;60;0;0;180,
+.freeobj 1;60,
+.freeobj 3;60,
 .FreeObj 0;508;,
 .Freeobj 0;775;-3;0;,
 .FreeObj 0;533;;0;,
@@ -260,6 +288,8 @@
 009525,
 .stop 0,
 .freeobj 0;60;0;0;180,
+.freeobj 1;60,
+.freeobj 3;60,
 
 009550,
 .freeobj 0;60;0;0;180,
@@ -274,32 +304,37 @@
 .FreeObj 3;520;,
 .Freeobj 3;778;3;0;,
 .FreeObj 3;533;;0;,
+.freeobj 1;60,
+.freeobj 3;60,
 
 009575,
 .sigf 4;1;-2.75;4.6,
 .section 0;2;3;4,
 .freeobj 0;40;-0.5;-0.2,
-
-009600,
 .railstart 10;0;0;81,
 
+009600,
+.rail 10;1,
+.railtype 10;1,
+
 009625,
-.rail 10;0.75,
+.rail 10;2.25,
 
 009650,
-.rail 10;2.25,
+.rail 10;3.5,
 .railtype 10;87,
 
 009675,
-.rail 10;3.75,
-
-009700,
 .rail 10;4.5,
 .railtype 10;1,
+
+009700,
+.curve 600;0,
 
 009750,
 .railtype 10;81,
 .rail 10;5.25,
+.curve 0;0,
 
 009775,
 .rail 10;6.75,
@@ -307,12 +342,19 @@
 
 009800,
 .rail 10;9,
+.rail 2;10,
+.rail 3;14.5
 
 009825,
 .rail 10;10,
 .railtype 10;1,
 
-009750,
+010050,
+.curve -600;0,
+
+010100,
+.curve 0;0,
+
 012025,
 .freeobj 0;60;0;0;180,
 
