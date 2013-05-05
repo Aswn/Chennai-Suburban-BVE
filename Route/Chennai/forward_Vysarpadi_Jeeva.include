@@ -177,6 +177,7 @@
 004425,
 .stop 0,
 .freeobj 0;60,
+.freeobj 0;76;-4;,
 .FreeObj 0;508;,
 .Freeobj 0;776;-3;0;,
 .FreeObj 0;532;;0;,

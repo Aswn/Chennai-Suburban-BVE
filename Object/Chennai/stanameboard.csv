@@ -1,14 +1,14 @@
 ﻿CreateMeshBuilder
-AddVertex,-0.2,5,0
-AddVertex,0.2,5,0
-AddVertex,0.2,3.0,0
-AddVertex,-0.2,3.0,0
+AddVertex,-3,10,0
+AddVertex,3,10,0
+AddVertex,3,6.0,0
+AddVertex,-3,6.0,0
 AddFace,0,1,2,3
 GenerateNormals
-LoadTexture,EMU STOP.png
+LoadTexture,stanameboard.png
 SetTextureCoordinates,0,0,0
 SetTextureCoordinates,1,1,0
 SetTextureCoordinates,2,1,1
 SetTextureCoordinates,3,0,1
 
-TranslateAll,2,-3.25,-0.15
+TranslateAll,-7.5,-5,0
