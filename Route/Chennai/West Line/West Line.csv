@@ -32,7 +32,7 @@ $Include(..\forward_vellore.include)
 007750,.sta Perambur Loco Works;08.3900;08.3910;;-1;1;;;;;;0,
 009275,.sta Villivakkam;08.4220;08.4240;;-1;1;;;;;;0,
 012000,.sta Korattur;08.4600;08.4620;;-1;1;;;;;;0,
-014000,.sta Pattaravakkam;08.4900;08.4910;;-1;1;;;;;;0,
+013700,.sta Pattaravakkam;08.4900;08.4910;;-1;1;;;;;;0,
 015000,.sta Ambattur;08.5200;08.5215;;-1;1;;;;;;0,
 016700,.sta Thirumullaivoyal;08.5500;08.5515;;-1;1;;;;;;0,
 018000,.sta Annanur;08.5800;08.5815;;-1;1;;;;;;0,
