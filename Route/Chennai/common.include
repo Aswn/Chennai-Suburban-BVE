@@ -222,7 +222,7 @@ With Structure
 .Rail(58) Chennai\RailObjects\Line\StdTrackNB1.csv,
 .Rail(59) Chennai\RailObjects\Line\StdTrackNB1a.csv,
 .Rail(60) Chennai\RailObjects\Line\StdTrackCS_2.csv,
-.Rail(61) Chennai\RailObjects\Line\StdTrackCS_1_300R.csv,
+.Rail(61) Chennai\RailObjects\Line\StdTrackSCS_1_300R.csv,
 
 .Rail(64) Chennai\RailObjects\Line\StdTrackCS_1_2000L.csv,
 .Rail(65) Chennai\RailObjects\Line\StdTrackWS_1_2000L.csv,
