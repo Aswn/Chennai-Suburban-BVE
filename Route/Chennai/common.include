@@ -262,8 +262,8 @@ With Structure
 .wallL(1) Chennai\fence_1.csv,
 .wallR(1) Chennai\tunnel_approach_wall_right_1_modified.csv,
 
-.Beacon(0) Chennai/Brsigs/night\aws_null_0.x,
-.Beacon(1) Chennai/Brsigs/night\aws_null_0.x,
+.Beacon(0) Chennai\Brsigs\night\aws_null_0.x,
+.Beacon(1) Chennai\Brsigs\night\aws_null_0.x,
 
 .CrackL(0) Chennai\BallastL.csv,
 .CrackR(0) Chennai\BallastR.csv,
@@ -301,6 +301,7 @@ With Structure
 .FreeObj(510) Chennai\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_1.csv,
 .FreeObj(511) Chennai\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_3.csv,
 .FreeObj(512) Chennai\Catenary\Mk3_New\Masts_3D\Mk3_LMast_R.csv,
+.FreeObj(515) Chennai\Signalling\Sig_T6.csv
 .FreeObj(518) Chennai\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_2.csv,
 .FreeObj(519) Chennai\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_4.csv,
 .FreeObj(520) Chennai\Catenary\Mk3_New\Masts_3D\Mk3_RMast_R.csv,
@@ -330,7 +331,15 @@ With Structure
 .FreeObj(547) Chennai\Catenary\Mk1_New\Mk1_Gantry_SA2_L.csv,
 .FreeObj(548) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b1.csv,
 .FreeObj(549) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b2.csv,
-.FreeObj(550) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b3.csv,
+.FreeObj(550) .FreeObj(456) Bham_X-City_South\Dusk\Summer\RailObjects\Points\25m_166_WS_R_R.csv
+.FreeObj(457) Bham_X-City_South\Dusk\Summer\RailObjects\Points\25m_166_WS_Y_L.csv
+.FreeObj(458) Bham_X-City_South\Dusk\Summer\RailObjects\Points\75m_110_P2_WS_R.csv
+.FreeObj(459) Bham_X-City_South\Dusk\Summer\RailObjects\Points\25m_166_WS_Y_R.csv
+.FreeObj(460) Bham_X-City_South\Dusk\Summer\RailObjects\Points\50m_166_WS_R_R.csv
+.FreeObj(461) Bham_X-City_South\Dusk\Summer\RailObjects\Points\75m_166_P1_WS_R_R.csv
+.FreeObj(462) Bham_X-City_South\Dusk\Summer\RailObjects\Points\75m_166_P1_WS_L_S.csv
+.FreeObj(463) Bham_X-City_South\Dusk\Summer\RailObjects\Points\75m_166_P2_WS_R.csv
+.FreeObj(464) Bham_X-City_South\Dusk\Summer\RailObjects\Points\75m_166_P1_WS_L_L.csvChennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b3.csv,
 .FreeObj(551) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b2a.csv,
 .FreeObj(552) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b1a.csv,
 .FreeObj(553) Chennai\Catenary\Mk3\OLE_XP\OLE_HWire_Ovr_6.csv,
@@ -434,8 +443,17 @@ With Structure
 .FreeObj(872) Chennai\Signalling\BRSigs_signal4_r.x,
 .FreeObj(873) Chennai\Signalling\BRSigs_signal4_y.x,
 .FreeObj(874) Chennai\Signalling\BRSigs_signal4_2y.x,
-.FreeObj(954) Chennai\Signalling\Sig_BR.csv,
 .FreeObj(885) Chennai\Signalling\BRSigs_signal3_r.x
+.FreeObj(954) Chennai\Signalling\Sig_BR.csv,
+.FreeObj(956) Chennai\RailObjects\Points\25m_166_WS_R_R.csv
+.FreeObj(957) Chennai\RailObjects\Points\25m_166_WS_Y_L.csv
+.FreeObj(958) Chennai\RailObjects\Points\75m_110_P2_WS_R.csv
+.FreeObj(959) Chennai\RailObjects\Points\25m_166_WS_Y_R.csv
+.FreeObj(960) Chennai\RailObjects\Points\50m_166_WS_R_R.csv
+.FreeObj(961) Chennai\RailObjects\Points\75m_166_P1_WS_R_R.csv
+.FreeObj(962) Chennai\RailObjects\Points\75m_166_P1_WS_L_S.csv
+.FreeObj(963) Chennai\RailObjects\Points\75m_166_P2_WS_R.csv
+.FreeObj(964) Chennai\RailObjects\Points\75m_166_P1_WS_L_L.csv
 
 Texture.Background(0) Chennai/Backgrounds/Background_0.png,
 
