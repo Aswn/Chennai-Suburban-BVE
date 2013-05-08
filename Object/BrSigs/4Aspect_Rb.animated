@@ -1,0 +1,4 @@
+[Object]
+Position = 0, -0.005, -0.4
+States = Signal4_R.csv
+StateFunction = if[section <= 0, 0, 1]

@@ -1,0 +1,4 @@
+[Object]
+Position = 0, 0, 0
+States = featherL_unlit.csv, featherL_lit.csv
+statefunction = if[section <= 0, 0, if[section <= 4, 1, 1]]

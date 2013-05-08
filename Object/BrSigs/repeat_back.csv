@@ -1,0 +1,53 @@
+﻿;--------------------------------------
+;NWM BrSigs for OpenBVE Object File
+;--------------------------------------
+;
+;www.bve4.net
+;www.trainsimcentral.co.uk
+;
+;Object by TSC team
+;
+;This object and its textures may be freely reused. 
+;Please acknowledge the original authors and leave this header in place.
+;Use in conjunction with animated files for .SigF type signalling in openBVE routes only.
+;
+
+CreateMeshBuilder
+AddVertex,-0.46,-0.9,-0.35
+AddVertex,-0.46,0.1,-0.35
+AddVertex,0.46,0.1,-0.35
+AddVertex,0.46,-0.9,-0.35
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,repeat_back.png,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder
+AddVertex,-0.46,-0.9,-0.35
+AddVertex,-0.46,0.1,-0.35
+AddVertex,0.46,0.1,-0.35
+AddVertex,0.46,-0.9,-0.35
+AddFace,3,2,1,0
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,repeat_back2.png,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder
+AddVertex,-0.46,-0.9,-0.355
+AddVertex,-0.46,0.1,-0.355
+AddVertex,0.46,0.1,-0.355
+AddVertex,0.46,-0.9,-0.355
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,repeat_light.png
+SetEmissiveColor,255,255,255
+SetDecalTransparentColor,0,0,0,

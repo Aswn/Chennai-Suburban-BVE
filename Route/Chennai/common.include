@@ -262,8 +262,8 @@ With Structure
 .wallL(1) Chennai\fence_1.csv,
 .wallR(1) Chennai\tunnel_approach_wall_right_1_modified.csv,
 
-.Beacon(0) Chennai\Brsigs\night\aws_null_0.x,
-.Beacon(1) Chennai\Brsigs\night\aws_null_0.x,
+.Beacon(0) Chennai\Brsigs\night\AWS_Null_0.x,
+.Beacon(1) Chennai\Brsigs\night\AWS_Null_0.x,
 
 .CrackL(0) Chennai\BallastL.csv,
 .CrackR(0) Chennai\BallastR.csv,
@@ -274,7 +274,10 @@ With Structure
 .FreeObj(20) Chennai\limit_75.x,
 .FreeObj(21) Chennai\limit_20.x,
 .FreeObj(22) Chennai\warning_20.x,
-.FreeObj(30) Chennai/Brsigs/awsmagnet_1.x,
+.FreeObj(30) Chennai\Brsigs\AWSMagnet_1.x,
+.FreeObj(31) Chennai\Brsigs\AWS_TSR_2.x,
+.FreeObj(32) Chennai\Brsigs\cosignal2y.x,
+.FreeObj(32) Chennai\Brsigs\glow4ygfeather2l.x
 .FreeObj(40) Chennai\signal_pole.csv,
 .FreeObj(60) Chennai\platform_1.csv,
 .FreeObj(61) Chennai\platform ramp_up_right.csv,
@@ -331,15 +334,7 @@ With Structure
 .FreeObj(547) Chennai\Catenary\Mk1_New\Mk1_Gantry_SA2_L.csv,
 .FreeObj(548) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b1.csv,
 .FreeObj(549) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b2.csv,
-.FreeObj(550) .FreeObj(456) Bham_X-City_South\Dusk\Summer\RailObjects\Points\25m_166_WS_R_R.csv
-.FreeObj(457) Bham_X-City_South\Dusk\Summer\RailObjects\Points\25m_166_WS_Y_L.csv
-.FreeObj(458) Bham_X-City_South\Dusk\Summer\RailObjects\Points\75m_110_P2_WS_R.csv
-.FreeObj(459) Bham_X-City_South\Dusk\Summer\RailObjects\Points\25m_166_WS_Y_R.csv
-.FreeObj(460) Bham_X-City_South\Dusk\Summer\RailObjects\Points\50m_166_WS_R_R.csv
-.FreeObj(461) Bham_X-City_South\Dusk\Summer\RailObjects\Points\75m_166_P1_WS_R_R.csv
-.FreeObj(462) Bham_X-City_South\Dusk\Summer\RailObjects\Points\75m_166_P1_WS_L_S.csv
-.FreeObj(463) Bham_X-City_South\Dusk\Summer\RailObjects\Points\75m_166_P2_WS_R.csv
-.FreeObj(464) Bham_X-City_South\Dusk\Summer\RailObjects\Points\75m_166_P1_WS_L_L.csvChennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b3.csv,
+.FreeObj(550) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b3.csv,
 .FreeObj(551) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b2a.csv,
 .FreeObj(552) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_b1a.csv,
 .FreeObj(553) Chennai\Catenary\Mk3\OLE_XP\OLE_HWire_Ovr_6.csv,
@@ -353,6 +348,11 @@ With Structure
 .FreeObj(570) Chennai\Signalling\Sig_T3.csv,
 .FreeObj(572) Chennai\Signalling\Sig_T5.csv,
 .FreeObj(596) Chennai\Signs\CarStop.csv,
+.FreeObj(614) Chennai\RailObjects\Points\25m_166_WS_L_S.csv
+.FreeObj(615) Chennai\RailObjects\Points\25m_260_WS_X_L_S.csv
+.FreeObj(618) Chennai\RailObjects\Points\50m_166_WS_L_S.csv
+.FreeObj(619) Chennai\RailObjects\Points\25m_166_WS_R_S.csv
+
 .FreeObj(643) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk_c.csv,
 .FreeObj(644) Chennai\Catenary\Mk3\OLE_XP\OLE_H_1trk50_c.csv,
 .FreeObj(645) Chennai\Catenary\Mk3\OLE_XP\OLE_C_1trk50_a.csv,
@@ -362,10 +362,18 @@ With Structure
 .FreeObj(652) Chennai\Signalling\Relay_Cab.csv,
 .FreeObj(653) Chennai\Signalling\Sig_T5b.csv,
 .FreeObj(654) Chennai\Catenary\Mk3_New\Mk3_Transformer.csv,
-
+.FreeObj(666) Chennai\RailObjects\Points\75m_166_P2_WS_L.csv
+.FreeObj(682) Chennai\RailObjects\Points\75m_110_P1_WS_R_S.csv
+.FreeObj(683) Chennai\RailObjects\Points\NewSt_Pointwork_1.csv
+.FreeObj(684) Chennai\RailObjects\Points\NewSt_Pointwork_2.csv
 .FreeObj(685) Chennai\Catenary\Mk3_New\TensionWeightL_XP.csv,
 .FreeObj(686) Chennai\Catenary\Mk3_New\TensionWeightR.csv,
-
+.FreeObj(756) Chennai\RailObjects\Points\25m_166_WS_C_L_S.csv
+.FreeObj(757) Chennai\RailObjects\Points\25m_166_WS_C_R_S.csv
+.FreeObj(758) Chennai\RailObjects\Points\25m_166_WS_NS_C_R_S.csv
+.FreeObj(759) Chennai\RailObjects\Points\25m_260_WS_X_R_S.csv
+.FreeObj(760) Chennai\RailObjects\Points\75m_166_P1_WS_R_S.csv
+.FreeObj(761) Chennai\RailObjects\Points\25m_166_WS_L_L.csv
 .FreeObj(762) Chennai\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_7a.csv,
 .FreeObj(763) Chennai\Catenary\Mk3_New\Mk3_HOvr_Support.csv,
 .FreeObj(764) Chennai\Catenary\Mk3_New\Mk3_HOvr_Support2.csv,
@@ -439,11 +447,18 @@ With Structure
 .FreeObj(836) Chennai\Catenary\Mk3\OLE_XP\OLE_AnchorSpan_2_25.csv,
 .FreeObj(850) Chennai\Catenary\Mk3_New\Masts_3D\Mk3_Tension_1.csv,
 .FreeObj(868) Chennai\Signalling\Feather_LH_On.csv,
+.FreeObj(869) Chennai\Signalling\Feather_LH_Off.csv,
 .FreeObj(870) Chennai\Signalling\Feather_RH_On.csv,
+.FreeObj(871) Chennai\Signalling\Feather_RH_Off.csv,
 .FreeObj(872) Chennai\Signalling\BRSigs_signal4_r.x,
 .FreeObj(873) Chennai\Signalling\BRSigs_signal4_y.x,
 .FreeObj(874) Chennai\Signalling\BRSigs_signal4_2y.x,
-.FreeObj(885) Chennai\Signalling\BRSigs_signal3_r.x
+.FreeObj(885) Chennai\Signalling\BRSigs_signal3_r.x,
+.FreeObj(931) Chennai\RailObjects\Points\25m_166_CS_R_S.csv
+.FreeObj(932) Chennai\RailObjects\Points\75m_110_P1_CS_R_S.csv
+.FreeObj(933) Chennai\RailObjects\Points\25m_260_CS_X_L_S.csv
+.FreeObj(934) Chennai\RailObjects\Points\25m_KN_CS_X_L_S.csv
+.FreeObj(935) Chennai\RailObjects\Points\75m_166_P1_CS_R_S.csv
 .FreeObj(954) Chennai\Signalling\Sig_BR.csv,
 .FreeObj(956) Chennai\RailObjects\Points\25m_166_WS_R_R.csv
 .FreeObj(957) Chennai\RailObjects\Points\25m_166_WS_Y_L.csv
@@ -457,11 +472,56 @@ With Structure
 
 Texture.Background(0) Chennai/Backgrounds/Background_0.png,
 
-Signal(3).Load Chennai/Brsigs/glow3
-Signal(4).Load Chennai/Brsigs/night/glow4yg
-Signal(5).Load Chennai/Brsigs/night/glowrepeat
-Signal(8).Load Chennai/Brsigs/night/glow4ygfeatherl
-Signal(13).Load Chennai/Brsigs/night/glow2gy
-Signal(14).Load Chennai/Brsigs/night/glow4yg
-Signal(15).Load Chennai/Brsigs/night/glowgroundrepeater4yg
+Signal(1).Load BrSigs\2aspect_GR.animated
+Signal(2).Load BrSigs\2aspect_YR.animated
+Signal(3).Load BrSigs\3Aspect.animated
+Signal(4).Load BrSigs\4aspect.animated
+Signal(5).Load brsigs\repeater.animated
+Signal(6).Load BrSigs\4aspect_featherL.animated
+Signal(7).Load BrSigs\4aspect_featherR.animated
+Signal(8).Load BrSigs\3aspect_featherR.animated
+signal(9).Load BrSigs\4aspect_callon.animated
+signal(10).Load BrSigs\3aspect_featherl.animated
+Signal(11).Load BrSigs\2aspect_callon2.animated	
+Signal(12).Load BrSigs\4aspect_feather2L.animated
+Signal(13).Load BrSigs\4aspect_feather2r.animated
+Signal(15).Load BrSigs\2aspect_feather_callon2.animated
+Signal(16).Load BrSigs\2aspect_featherrlit_callonunlit.animated
+Signal(17).Load BrSigs\2aspect_featherrlit_callon2.animated
+Signal(18).Load BrSigs\3aspect_callon.animated
+Signal(19).Load BrSigs\2aspect_GY_distant.animated
+Signal(20).Load BrSigs\3aspect_indM.animated
+Signal(21).Load BrSigs\3aspect_ind1.animated
+Signal(22).Load BrSigs\3aspect_ind2.animated
+Signal(23).Load BrSigs\3aspect_ind3.animated
+Signal(24).Load BrSigs\3aspect_ind4.animated
+Signal(27).Load BrSigs\2Aspect_YR_ind2_colit.animated
+Signal(28).Load BrSigs\3aspect_indB.animated
+Signal(29).Load BrSigs\3Aspect_ind2_colit.animated
+Signal(30).Load BrSigs\2aspect_YR_ind1_co.animated
+Signal(31).Load BrSigs\2aspect_YR_ind2_co.animated
+Signal(32).Load BrSigs\2aspect_YR_ind3_co.animated
+Signal(33).Load BrSigs\2aspect_YR_ind4_co.animated
+Signal(34).Load BrSigs\4aspect_ind1.animated
+Signal(35).Load BrSigs\4aspect_ind2.animated
+Signal(36).Load BrSigs\4aspect_ind3.animated
+Signal(37).Load brsigs\platformbanner.animated
+Signal(38).Load brsigs\callon_Sdg.animated
+Signal(39).Load BrSigs\4aspect_ind4.animated
+Signal(40).Load BrSigs\4aspect_indG.animated
+Signal(41).Load BrSigs\4aspect_indM.animated
+Signal(42).Load brsigs\callon.animated
+Signal(43).Load BrSigs\3aspect_indG.animated
+Signal(44).Load BrSigs\3aspect_ind0.animated
+signal(50).Load BrSigs\4Aspect.animated
+signal(51).Load BrSigs\4Aspect_Ya.animated
+signal(52).Load BrSigs\4Aspect_2Ya.animated
+signal(53).Load BrSigs\4Aspect_F_Y.animated
+signal(54).Load BrSigs\4Aspect_F_2Y.animated
+signal(55).Load BrSigs\4FeatherL.animated
+signal(56).Load BrSigs\4Aspect_Y_approachcontrol.animated
+signal(57).Load BrSigs\4Aspect_Rb.animated
+signal(58).Load BrSigs\4Aspect_Ng.animated
+signal(59).Load BrSigs\3aspect_alt_main.animated
+signal(60).Load BrSigs\3aspect_alt_callon.animated
 

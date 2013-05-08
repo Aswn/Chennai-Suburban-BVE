@@ -1,0 +1,13 @@
+[Object]
+Position = 0, 0.15, 0
+States = signal2yr_r.csv, signal2yr_y.csv
+statefunction = if[section != 0, 1, 0]
+
+[Object]
+Position = 0, 0.72, 0.02
+States = callon_r.csv
+
+[Object]
+Position = 0, 0.06, 0
+States = ind0.csv, ind1.csv
+statefunction = if[section != 0, 1, 0]

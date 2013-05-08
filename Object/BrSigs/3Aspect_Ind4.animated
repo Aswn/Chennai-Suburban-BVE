@@ -1,0 +1,10 @@
+
+[Object]
+Position = 0, 0, 0
+States = signal3_R.csv, signal3_y.csv, signal3_g.csv
+statefunction = section / 2
+
+[Object]
+Position = 0, -0.1, 0
+States = ind0.csv, ind4.csv
+statefunction = if[section != 0, 1, 0]

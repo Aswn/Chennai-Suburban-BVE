@@ -1,0 +1,5 @@
+
+[Object]
+Position = 0, 0, 0
+States = platformbanner_r.csv, platformbanner_g.csv
+statefunction = if[section <= 1, 0, 1]

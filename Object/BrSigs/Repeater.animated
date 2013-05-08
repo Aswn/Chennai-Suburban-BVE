@@ -1,0 +1,12 @@
+[Object]
+States = repeat_back.csv
+
+[Object]
+Position = 0, -0.428, 0
+States = repeat_arm.csv
+RotateZFunction = (section >= 1) * (-0.7)
+RotateZDamping = 10, 0.5
+
+
+
+

@@ -1,0 +1,7 @@
+;can show only R>Y>2Y (non-flashing)
+
+[Object]
+Position = 0, -0.005, -0.2
+States = signal4_R.csv, signal4_Y.csv, signal4_2Y.csv, signal4_2Y.csv
+StateFunction = if[section <= 0, 1, if[section <= 2, 2, if[section <= 4, 2, 2]]]
+TranslateYFunction = if[section <= 2, 0, -10]

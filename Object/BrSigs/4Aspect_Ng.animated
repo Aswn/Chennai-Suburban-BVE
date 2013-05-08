@@ -1,0 +1,4 @@
+[Object]
+Position = 0, 0, 0
+States = signal4_Ng_R.csv, signal4_Ng_Y.csv, signal4_Ng_2Y.csv, signal4_ng_G.csv
+StateFunction = if[section <= 0, 0, if[section <= 2, 1, if[section <= 3, 2, if[section <= 4, 3, 3]]]]

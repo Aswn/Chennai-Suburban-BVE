@@ -1,0 +1,196 @@
+﻿;--------------------------------------
+;NWM BrSigs for OpenBVE Object File
+;--------------------------------------
+;
+;www.bve4.net
+;www.trainsimcentral.co.uk
+;
+;Object by TSC team
+;
+;This object and its textures may be freely reused. 
+;Please acknowledge the original authors and leave this header in place.
+;Use in conjunction with animated files for .SigF type signalling in openBVE routes only.
+;
+
+CreateMeshBuilder
+AddVertex,-0.3,-0.85,-0.4
+AddVertex,-0.3,-0.08,-0.4
+AddVertex,0.3,-0.08,-0.4
+AddVertex,0.3,-0.85,-0.4
+AddFace2,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,signal2_gr.png,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder
+AddVertex,0.15,-0.85,-0.234
+AddVertex,0.15,-0.21,-0.234
+AddVertex,-0.15,-0.21,-0.234
+AddVertex,-0.15,-0.85,-0.234
+AddFace,0,1,2,3,
+SetTextureCoordinates,0,0.0,2.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,2.0
+LoadTexture,back_box.png,
+
+CreateMeshBuilder,
+AddVertex, 0.15, -0.85, -0.4
+AddVertex, 0.15, -0.85, -0.234
+AddVertex, 0.15, -0.21, -0.234
+AddVertex, 0.15, -0.21, -0.4
+AddVertex, -0.15, -0.21, -0.4, 
+AddVertex, -0.15, -0.21, -0.234 
+AddVertex, -0.15, -0.85, -0.234 
+AddVertex, -0.15, -0.85, -0.4
+AddFace,3,2,1,0,
+AddFace,2,3,4,5,
+AddFace,7,6,5,4,
+setcolor,101,116,126,
+GenerateNormals,
+CreateMeshBuilder
+AddVertex,-0.35,-0.9337,-0.42
+AddVertex,-0.35,-0.1737,-0.42
+AddVertex,0.35,-0.1737,-0.42
+AddVertex,0.35,-0.9337,-0.42
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,graphics\glow_red.png
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,150,DivideExponent4
+Translate,0,-0.1,0, ;bottom
+
+CreateMeshBuilder
+AddVertex,-0.11,-0.11,-0.41
+AddVertex,-0.11,0.11,-0.41
+AddVertex,0.11,0.11,-0.41
+AddVertex,0.11,-0.11,-0.41
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,graphics\light_red.png
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive
+Translate,0,-0.71,0, 
+
+CreateMeshBuilder,
+AddVertex, 0.135, -0.19, -0.65 ,
+AddVertex, 0.135, -0.24, -0.4 ,
+AddVertex, 0.12, -0.163, -0.4 ,
+AddVertex, 0.12, -0.163, -0.67 ,
+AddVertex, 0.0698, -0.106, -0.69 ,
+AddVertex, 0.0698, -0.106, -0.4 ,
+AddVertex, 0.03, -0.093, -0.4 ,
+AddVertex, 0.03, -0.093, -0.7 ,
+AddVertex, -0.03, -0.093, -0.7 ,
+AddVertex, -0.03, -0.093, -0.4 ,
+AddVertex, -0.0698, -0.106, -0.4 ,
+AddVertex, -0.0698, -0.106, -0.69 ,
+AddVertex, -0.12, -0.163, -0.67 ,
+AddVertex, -0.12, -0.163, -0.4,
+AddVertex, -0.135, -0.24, -0.4 ,
+AddVertex, -0.135, -0.19, -0.65 ,
+AddFace,  0,1,2,3,
+AddFace,  5,4,3,2,
+AddFace,  4,5,6,7,
+AddFace,  9,8,7,6,
+AddFace,  8,9,10,11
+AddFace,  13,12,11,10,
+AddFace,  12,13,14,15,
+SetColor, 24,29,35,
+GenerateNormals,
+translate,0,-0.16,0,
+
+CreateMeshBuilder,
+AddVertex, 0.135, -0.19, -0.65,
+AddVertex, 0.14, -0.24, -0.4, 
+AddVertex, 0.13, -0.165, -0.4, 0.13,-0.165, -0.4
+AddVertex, 0.12, -0.163, -0.67, 0.12,-0.165, -0.67
+AddVertex, 0.0698, -0.106, -0.69, 0.0698, -0.106, -0.69, 
+AddVertex, 0.076, -0.104, -0.4, 0.076, -0.104, -0.4,
+AddVertex, 0.03, -0.088, -0.4, 0.03, -0.088, -0.4,
+AddVertex, 0.03, -0.093, -0.7, 0.03, -0.093, -0.7,
+AddVertex, -0.03, -0.093, -0.7, -0.03, -0.093, -0.7,
+AddVertex, -0.03, -0.088, -0.4, -0.03, -0.088, -0.4,
+AddVertex, -0.076, -0.106, -0.4, -0.076, -0.106, -0.4,
+AddVertex, -0.0698, -0.106, -0.69, -0.0698, -0.106, -0.69,
+AddVertex, -0.12, -0.163, -0.67, -0.12, -0.163, -0.67,
+AddVertex, -0.13, -0.165, -0.4, -0.13, -0.165, -0.4,
+AddVertex, -0.14, -0.24, -0.4,
+AddVertex, -0.135, -0.19, -0.65,
+AddFace,  3,2,1,0,
+AddFace,  2,3,4,5,
+AddFace,  7,6,5,4,
+AddFace,  6,7,8,9,
+AddFace,  11,10,9,8,
+AddFace,  10,11,12,13,
+AddFace,  15,14,13,12,
+SetColor, 96,109,119,
+GenerateNormals,
+translate,0,-0.16,0,
+
+CreateMeshBuilder,
+AddVertex, 0.135, -0.19, -0.65 ,
+AddVertex, 0.135, -0.24, -0.4 ,
+AddVertex, 0.12, -0.163, -0.4 ,
+AddVertex, 0.12, -0.163, -0.67 ,
+AddVertex, 0.0698, -0.106, -0.69 ,
+AddVertex, 0.0698, -0.106, -0.4 ,
+AddVertex, 0.03, -0.093, -0.4 ,
+AddVertex, 0.03, -0.093, -0.7 ,
+AddVertex, -0.03, -0.093, -0.7 ,
+AddVertex, -0.03, -0.093, -0.4 ,
+AddVertex, -0.0698, -0.106, -0.4 ,
+AddVertex, -0.0698, -0.106, -0.69 ,
+AddVertex, -0.12, -0.163, -0.67 ,
+AddVertex, -0.12, -0.163, -0.4,
+AddVertex, -0.135, -0.24, -0.4 ,
+AddVertex, -0.135, -0.19, -0.65 ,
+AddFace,  0,1,2,3,
+AddFace,  5,4,3,2,
+AddFace,  4,5,6,7,
+AddFace,  9,8,7,6,
+AddFace,  8,9,10,11
+AddFace,  13,12,11,10,
+AddFace,  12,13,14,15,
+SetColor, 44,29,35,
+SetemissiveColor, 44,14,17,
+GenerateNormals,
+translate,0,-0.465,0,
+
+CreateMeshBuilder,
+AddVertex, 0.135, -0.19, -0.65,
+AddVertex, 0.14, -0.24, -0.4, 
+AddVertex, 0.13, -0.165, -0.4, 0.13,-0.165, -0.4
+AddVertex, 0.12, -0.163, -0.67, 0.12,-0.165, -0.67
+AddVertex, 0.0698, -0.106, -0.69, 0.0698, -0.106, -0.69, 
+AddVertex, 0.076, -0.104, -0.4, 0.076, -0.104, -0.4,
+AddVertex, 0.03, -0.088, -0.4, 0.03, -0.088, -0.4,
+AddVertex, 0.03, -0.093, -0.7, 0.03, -0.093, -0.7,
+AddVertex, -0.03, -0.093, -0.7, -0.03, -0.093, -0.7,
+AddVertex, -0.03, -0.088, -0.4, -0.03, -0.088, -0.4,
+AddVertex, -0.076, -0.106, -0.4, -0.076, -0.106, -0.4,
+AddVertex, -0.0698, -0.106, -0.69, -0.0698, -0.106, -0.69,
+AddVertex, -0.12, -0.163, -0.67, -0.12, -0.163, -0.67,
+AddVertex, -0.13, -0.165, -0.4, -0.13, -0.165, -0.4,
+AddVertex, -0.14, -0.24, -0.4,
+AddVertex, -0.135, -0.19, -0.65,
+AddFace,  3,2,1,0,
+AddFace,  2,3,4,5,
+AddFace,  7,6,5,4,
+AddFace,  6,7,8,9,
+AddFace,  11,10,9,8,
+AddFace,  10,11,12,13,
+AddFace,  15,14,13,12,
+SetColor, 96,109,119,
+GenerateNormals,
+translate,0,-0.465,0,
+

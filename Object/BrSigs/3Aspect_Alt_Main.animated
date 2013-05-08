@@ -1,0 +1,8 @@
+[Object]
+Position = 0, 0, 0
+states = signal3_Alt_mesh.csv
+
+[Object]
+Position = 0, 0, 0
+States = signal3_alt_R.csv, signal3_alt_y.csv, signal3_alt_g.csv
+statefunction = section / 2

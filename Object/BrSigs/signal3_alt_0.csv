@@ -1,0 +1,89 @@
+﻿;--------------------------------------
+;NWM BrSigs for OpenBVE Object File
+;--------------------------------------
+;
+;www.bve4.net
+;www.trainsimcentral.co.uk
+;
+;Object by TSC team
+;
+;This object and its textures may be freely reused. 
+;Please acknowledge the original authors and leave this header in place.
+;Use in conjunction with animated files for .SigF type signalling in openBVE routes only.
+;
+
+CreateMeshBuilder
+AddVertex,-0.43,-0.39,-0.4
+AddVertex,-0.43,-0.1,-0.4
+AddVertex,0.43,-0.1,-0.4
+AddVertex,0.43,-0.39,-0.4
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,signal3_alt.png,
+SetDecalTransparentColor,0,0,0,
+setemissivecolor,195,195,195,
+
+CreateMeshBuilder
+AddVertex,0.43,-0.39,-0.234
+AddVertex,0.43,-0.1,-0.234
+AddVertex,-0.43,-0.1,-0.234
+AddVertex,-0.43,-0.39,-0.234
+AddFace,0,1,2,3,
+SetTextureCoordinates,0,0.0,1
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,3.0,0.0
+SetTextureCoordinates,3,3.0,1
+LoadTexture,back_box.png,
+setemissivecolor,195,195,195,
+
+CreateMeshBuilder,
+AddVertex, 0.43, -0.39, -0.4
+AddVertex, 0.43, -0.39, -0.234
+AddVertex, 0.43, -0.1, -0.234
+AddVertex, 0.43, -0.1, -0.4
+AddVertex, -0.43, -0.1, -0.4, 
+AddVertex, -0.43, -0.1, -0.234 
+AddVertex, -0.43, -0.39, -0.234 
+AddVertex, -0.43, -0.39, -0.4
+AddVertex, 0.43, -0.39, -0.4
+AddVertex, 0.43, -0.39, -0.234
+AddFace,3,2,1,0,
+AddFace,2,3,4,5,
+AddFace,7,6,5,4,
+AddFace,6,7,8,9,
+setcolor,81,96,106,
+GenerateNormals,
+setemissivecolor,20,20,20,
+
+CreateMeshBuilder
+AddVertex,-0.0,-0.8,-0.4
+AddVertex,-0.0,-0.39,-0.4
+AddVertex,0.43,-0.39,-0.4
+AddVertex,0.43,-0.8,-0.4
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,callon0_alt.png,
+SetDecalTransparentColor,0,0,255,
+setemissivecolor,195,195,195,
+
+CreateMeshBuilder
+AddVertex,-0.0,-0.8,-0.39
+AddVertex,-0.0,-0.39,-0.39
+AddVertex,0.43,-0.39,-0.39
+AddVertex,0.43,-0.8,-0.39
+AddFace2,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,callon0_alt_back.png,
+SetDecalTransparentColor,0,0,255,
+setemissivecolor,195,195,195,
+
+

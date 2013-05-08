@@ -1,0 +1,9 @@
+[Object]
+Position = 0, 0.25, 0
+States = signal4_R.csv, signal4_Y.csv, signal4_2Y.csv, signal4_G.csv
+StateFunction = if[section <= 0, 0, if[section <= 2, 1, if[section <= 3, 2, if[section <= 4, 3, 3]]]]
+
+[Object]
+Position = 0, 0.25, 0
+States = ind0.csv, ind1.csv
+statefunction = if[section != 0, 1, 0]
