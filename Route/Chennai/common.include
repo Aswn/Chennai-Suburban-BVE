@@ -402,6 +402,9 @@ With Structure
 .FreeObj(249) Chennai\Wood_Platform_Dark.csv,
 .FreeObj(250) Chennai\Wood_Platform_Descent.csv,
 .FreeObj(374) Chennai\Signalling\BRSigs_signal4_2y.x,
+.FreeObj(387) Chennai\Crossing_Double.csv
+
+
 .FreeObj(500) Chennai\Catenary\Mk3_New\Mk3_H_Ovr2.csv,
 .FreeObj(501) Chennai\Catenary\Mk3_New\Mk3_H_Ovr3.csv,
 .FreeObj(502) Chennai\Catenary\Mk3_New\Masts_3D\Mk3_Headspan_2trk_L.csv,

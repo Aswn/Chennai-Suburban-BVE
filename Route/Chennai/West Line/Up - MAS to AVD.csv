@@ -13,7 +13,7 @@ With Train
 .Folder BR_Class_323
 
 Route.change 1,
-Route.runinterval 300,
+Route.runinterval 500,
 
 ; common structures and configurations
 ; ------------------------------------
@@ -21,7 +21,6 @@ $include(..\common.include)
 
 
 With Track
-
 $Include(..\forward_central1.include)
 $Include(..\forward_basinbridge1.include)
 $Include(..\forward_perambur.include)
@@ -30,7 +29,7 @@ $Include(..\forward_Villivakkam1.include)
 $Include(..\forward_Avadi.include)
 
 000000,.sta Chennai Central Moore Market Complex;08.2500;08.2510;1;1;1;;;;;;0,
-001925,.sta Basin Bridge; 08.2915;08.2925;;-1;;;;;;;0,
+001925,.sta Basin Bridge;08.2915;08.2925;;-1;;;;;;;0,
 004200,.sta Vysarpadi Jeeva;08.3300;08.3310;;1;;;;;;;0,
 005400,.sta Perambur; 08.3500;08.3520;;-1;;;;;;;0,
 006000,.sta Perambur Carriage Works;08.3700;08.3710;;-1;;;;;;;0,

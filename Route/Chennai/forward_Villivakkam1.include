@@ -125,6 +125,7 @@
 .freeobj 3;532;;0;,
 
 08950,
+.freeobj 0;387;,
 .freeobj 0;508;,
 .freeobj 0;776;-3;0;,
 .freeobj 0;532;;0;,
@@ -300,7 +301,7 @@
 
 09225,
 .railtype 0;1,
-.railstart 13;1.65;;1,
+.railstart 13;1.635;;21,
 .freeobj 0;508;,
 .freeobj 0;776;-3;0;,
 .freeobj 0;532;;0;,
@@ -314,7 +315,7 @@
 .freeobj 3;532;;0;,
 
 09250,
-.rail 13;3.5,
+.rail 13;3.75,
 .freeobj 0;508;,
 .freeobj 0;776;-3;0;,
 .freeobj 0;532;;0;,
@@ -527,9 +528,10 @@
 .freeobj 0;40;-0.5;-0.2,
 .freeobj 0;869;-0.65;-1.35,
 .freeobj 0;871;-0.35;-1.35,
-;.Form 0;L;12;0,
+.Form 0;L;13;0,
 ;.Form 1;R;3;0,
 ;.Form 2;L;3;0,
+
 09575,
 .freeobj 0;508;,
 .freeobj 0;776;-3;0;,
