@@ -2,7 +2,7 @@ Route.Comment Chennai Suburban West Line,
 Route.DeveloperID Aswn,
 
 Route.change 1,
-Route.runinterval 300,
+Route.runinterval 900,
 
 ; train
 ; -----
@@ -39,6 +39,7 @@ $Include(..\forward_vellore.include)
 021000,.sta Avadi;09.0300;;;-1;1;;;;;;0,
 024000,.sta Hindu College;;;;-1;1;;;;;;0,
 025000,.sta Pattabiram;;;;-1;1;;;;;;0,
+027000,.sta Nemilicherry;;;;-1;1;;;;;;0,
 029000,.sta Thiruninravur;;;;-1;1;;;;;;0,
 032000,.sta Veppampattu;;;;-1;1;;;;;;0,
 036000,.sta Sevvapet Road;;;;-1;1;;;;;;0,
