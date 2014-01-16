@@ -14,20 +14,23 @@ UP
 Chennai Central - Avadi (MAS - AVD)
 Chennai Central - Pattabiram Millitary Siding (MAS - PTMS)
 Chennai Central - Thiruninravur (MAS - TNR)
-Chennai Central - Tiruvallur (MAS - TLR)
+Chennai Central - Tiruvallur (MAS - TRL)
 Chennai Central - Kadambathur (MAS - KBT)
 Chennai Central - Arakkonam (MAS - AJJ)
 Chennai Central - Tiruttani (MAS - TRT)
+Avadi - Arakkonam (AVD - AJJ)
+Avadi - Tiruvallur (AVD - TRL)
 
 DOWN
-Tiruttani - Chennai Central (TRT - MAS)
+Arakkonam - Avadi (AJJ - AVD)
 Arakkonam - Chennai Central (AJJ- MAS)
-Kadambathur - Chennai Central (KBT- MAS)
-Tiruvallur - Chennai Central (TLR- MAS)
-Thiruninravur - Chennai Central (TNR- MAS)
-Pattabiram Millitary Siding - Chennai Central (PTMS- MAS)
 Avadi - Chennai Central (AVD- MAS)
-
+Kadambathur - Chennai Central (KBT- MAS)
+Thiruninravur - Chennai Central (TNR- MAS)
+Tiruttani - Chennai Central (TRT - MAS)
+Tiruvallur - Avadi (TRL - AVD)
+Tiruvallur - Chennai Central (TRL- MAS)
+Pattabiram Millitary Siding - Chennai Central (PTMS- MAS)
 
 Local Fast Trains
 =================
@@ -47,6 +50,18 @@ Express Stops
 =============
 Chennai Central
 Perambur
+Tiruvallur
+Arakkonam
+! Tiruttani
+Walajah
+Katpadi
+Ambur
+Jolarpet
+
+Local Fast Stops
+================
+Chennai Central
+Perambur
 Villivakkam
 Ambattur
 Avadi
@@ -55,7 +70,7 @@ Tiruvallur
 Kadambathur
 Thiruvalangadu
 Arakkonam
-Tiruttani
+! Tiruttani
 Ambur
 Gudiyatham
 Walajah
@@ -64,3 +79,71 @@ Vaniyambadi
 Katpadi
 Jolarpet
 
+Local Stops
+===========
+
+number indicates distance in kms from central station
+
+0 	Chennai Central MMC
+2 	Basin Bridge
+4	  Vyasarpadi Jeeva
+5.6	Perambur
+6 	Perambur Carriage Works
+8 	Perambur Loco Works
+9 	Villivakkam
+12	Padi
+13	Anna Nagar
+12	Korattur
+14	Pattaravakkam
+15	Ambattur
+17	Thirumullaivoyal
+18	Annanur
+21	Avadi
+24	Hindu College
+! 28	Pattabiram Military Siding
+! 29	Pattabiram Military Siding Engineering Depot
+25	Pattabiram
+29	Thiruninravur
+32	Veppampattu
+36	Sevvapet Road
+Putlur
+42	Tiruvallur
+45	Egattur
+Kadambattur
+Senjipanambakkam
+54	Manavur
+58	Thiruvalangadu
+Mosur
+Puliyamangalam
+69	Arakkonam
+! Tiruttani
+Melpakam
+76	Chitteri
+80	Anavardhikhanpettai
+86	Mahendravady
+90	Sholinghur
+94	Thalangai
+98	Marudhalam
+105	Walajah Road
+112	Mukundarayapuram
+118	Thiruvalam
+124	Seevur
+129	Katpadi
+137	Latteri
+143	Virinchipuram
+148	Kavanoor
+154	Gudiyatham
+159	Mel-Alattur
+164	Valathoor
+170	Melpadi
+176	Pachchakuppam
+182	Ambur
+186	Ambur Vaniyambadi Block Hut
+189	Vinnamangalam
+193	Vinnamangalam Vaniyambadi Block Hut
+198	Vaniyambadi
+202	Vaniyambadi Kettandapatti Block Hut
+206	Kettandapatti
+213	Jolarpet
+
+! indicates deviation from line.
