@@ -1,16 +1,25 @@
+WINDOWS
+=======
+  1.  download zip/tar.gz and extract it
+  2.  cut-paste the chennai and brsigs folder into 'openbve_stable>Objects' 
+      folder (create it if it doesnt exist) and when you run it just browse into the route folder and select the route.
+      
+  Enjoy playing
+
 UBUNTU 
 ======
 instructions to use my route in ubuntu 12.04 or later
-download zip/tar.gz and extract it
-copy paste following commands in the terminal (alt+ctrl+t)
+  1.  download zip/tar.gz and extract it
+  2.  copy paste following commands in the terminal (alt+ctrl+t)
 
-sudo mv '<path to>/Chennai-Suburban-BVE/Route/Chennai' '/usr/share/games/bve/Railway/Route' 
-sudo mv '<path to>/Chennai-Suburban-BVE/Object/Chennai' '/usr/share/games/bve/Railway/Object' 
-if signals donot work do (most likely they will work if not)
-sudo mv '<path to>/Chennai-Suburban-BVE/Object/BrSigs' '/usr/share/games/bve/Railway/Object' 
+        sudo mv '<path to>/Chennai-Suburban-BVE/Route/Chennai' '/usr/share/games/bve/Railway/Route' 
+        sudo mv '<path to>/Chennai-Suburban-BVE/Object/Chennai' '/usr/share/games/bve/Railway/Object' 
+        
+      if signals donot work do (most likely they will work if not)
+        sudo mv '<path to>/Chennai-Suburban-BVE/Object/BrSigs' '/usr/share/games/bve/Railway/Object' 
 
-you need to be a sudo user to run these commands. 
-if you are hesitant to move files into root directory you can still always run the latest openBVE 
-works perfectly with mono. all you gotta do is paste the chennai and brsigs folder into 
-'openbve_stable>Objects' folder (create it if it doesnt exist) and when you run it with mono 
-just travel into the route folder and select the route
+    NOTE: you need to be a sudo user to run these commands. 
+    if you are hesitant to move files into root directory you can still always run the latest openBVE 
+    works perfectly with mono. all you gotta do is paste the chennai and brsigs folder into 
+    'openbve_stable>Objects' folder (create it if it doesnt exist) and when you run it with mono 
+    just travel into the route folder and select the route.
